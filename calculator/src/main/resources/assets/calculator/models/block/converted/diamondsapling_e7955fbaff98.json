@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "calculator:blocks/wood/sapling_diamond"
+  }
+}

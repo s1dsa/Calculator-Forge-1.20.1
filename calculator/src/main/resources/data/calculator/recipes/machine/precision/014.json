@@ -1,0 +1,27 @@
+{
+  "type": "calculator:precision",
+  "order": 14,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:clay"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:smallstone",
+      "count": 2
+    },
+    {
+      "item": "calculator:circuitdamaged_12",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/PrecisionChamberRecipes.java: Blocks.CLAY, new ItemStack(Calculator.small_stone, 2), new ItemStack(Calculator.circuitDamaged, 1, 12)"
+}

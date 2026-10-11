@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "calculator:material_4"
+    }
+  ],
+  "result": {
+    "item": "calculator:weakeneddiamond",
+    "count": 9
+  },
+  "_source": "CalculatorCrafting.java material enum 4"
+}

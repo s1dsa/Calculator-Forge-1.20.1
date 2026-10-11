@@ -1,0 +1,124 @@
+plugins {
+    id 'base'
+    id 'net.minecraftforge.gradle' version '6.0.54' apply false
+}
+
+allprojects {
+    group = 'sonar'
+    version = mod_version
+}
+
+subprojects {
+    apply plugin: 'java-library'
+    apply plugin: 'eclipse'
+    apply plugin: 'idea'
+    apply plugin: 'net.minecraftforge.gradle'
+
+    java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+    java.withSourcesJar()
+
+    minecraft {
+        mappings channel: mapping_channel, version: mapping_version
+        copyIdeResources = true
+        runs {
+            configureEach {
+                workingDirectory project.file("run/${name}")
+                property 'forge.logging.markers', 'REGISTRIES'
+                property 'forge.logging.console.level', 'info'
+                jvmArgs '-Xms512m', '-Xmx3G'
+                mods {
+                    "${project.name}" { source project.sourceSets.main }
+                }
+            }
+            client {
+                property 'forge.enabledGameTestNamespaces', project.name
+            }
+            server {
+                property 'forge.enabledGameTestNamespaces', project.name
+                args '--nogui'
+            }
+            gameTestServer {
+                property 'forge.enabledGameTestNamespaces', project.name
+                property 'forge.gameTestServer.report', project.file('build/reports/gametest.xml').absolutePath
+            }
+            data {
+                args '--mod', project.name, '--all', '--output', file('src/generated/resources/'),
+                        '--existing', file('src/main/resources/')
+            }
+        }
+    }
+
+    sourceSets.main.resources.srcDir 'src/generated/resources'
+
+    dependencies {
+        minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+    }
+    tasks.withType(AbstractArchiveTask).configureEach {
+        preserveFileTimestamps = false
+        reproducibleFileOrder = true
+    }
+    tasks.named('processResources', ProcessResources).configure {
+        def replacements = providers.provider {
+            [minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,
+             forge_version: forge_version, forge_version_range: forge_version_range,
+             loader_version_range: loader_version_range, mod_version: mod_version,
+             sonarcore_version_range: sonarcore_version_range, mod_authors: mod_authors,
+             mod_id: project.name, mod_name: project.mod_name,
+             mod_license: project.mod_license, mod_description: project.mod_description]
+        }
+        inputs.properties(replacements.get())
+        filesMatching(['META-INF/mods.toml', 'pack.mcmeta']) {
+            expand replacements.get()
+        }
+    }
+    tasks.named('jar', Jar).configure {
+        from(rootProject.file('LICENSE'))
+        archiveBaseName = "${project.name}-${minecraft_version}"
+        manifest.attributes('Specification-Title': project.name,
+                'Specification-Vendor': mod_authors, 'Specification-Version': '1',
+                'Implementation-Title': project.name, 'Implementation-Version': project.version,
+                'Implementation-Vendor': mod_authors)
+    }
+    // Keep the normal jar task usable by sibling projects in the named dev environment.
+    // Distribution builds explicitly reobfuscate both independent mod jars.
+    tasks.named('assemble').configure { dependsOn 'reobfJar' }
+    tasks.register('prepareDependencies') {
+        group = 'build setup'
+        description = 'Resolve the mapped Forge compile/runtime classpaths without compiling mod sources.'
+        doLast {
+            configurations.compileClasspath.resolve()
+            configurations.runtimeClasspath.resolve()
+        }
+    }
+}
+
+['assemble', 'build', 'check', 'clean'].each { taskName ->
+    tasks.named(taskName).configure {
+        dependsOn subprojects.collect { "${it.path}:${taskName}" }
+    }
+}
+tasks.register('compileJava') {
+    group = 'build'
+    dependsOn ':sonarcore:compileJava', ':calculator:compileJava'
+}
+tasks.register('prepareDependencies') {
+    group = 'build setup'
+    dependsOn ':sonarcore:prepareDependencies', ':calculator:prepareDependencies'
+}
+['runClient', 'runServer', 'runGameTestServer'].each { taskName ->
+    tasks.register(taskName) {
+        group = 'forgegradle runs'
+        dependsOn ":calculator:${taskName}"
+    }
+}
+
+tasks.named('wrapper', Wrapper).configure {
+    gradleVersion = '8.14.3'
+    distributionType = Wrapper.DistributionType.BIN
+    networkTimeout = 60000
+    distributionSha256Sum = 'bd71102213493060956ec229d946beee57158dbd89d0e62b91bca0fa2c5f3531'
+}

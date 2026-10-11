@@ -1,0 +1,29 @@
+{
+  "type": "calculator:calculator",
+  "order": 12,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:torch"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:reinforcedironingot"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:lantern",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/CalculatorRecipes.java: Calculator.basic_lantern, Blocks.TORCH, Calculator.reinforcediron_ingot"
+}

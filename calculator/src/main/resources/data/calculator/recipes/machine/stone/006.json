@@ -1,0 +1,27 @@
+{
+  "type": "calculator:stone",
+  "order": 6,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:birch_log"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:birch_planks",
+      "count": 4
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 2
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/StoneSeparatorRecipes.java: new ItemStack(Blocks.LOG, 1, 2), new ItemStack(Blocks.PLANKS, 4, 2), new ItemStack(Items.STICK, 2, 0)"
+}

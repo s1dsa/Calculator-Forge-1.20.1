@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:shardtanzanite"
+    }
+  },
+  "result": {
+    "item": "calculator:smalltanzanite",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShaped"
+}

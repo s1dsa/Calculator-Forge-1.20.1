@@ -1,0 +1,41 @@
+{
+  "type": "calculator:flawless",
+  "order": 3,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:ender_pearl",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/FlawlessCalculatorRecipes.java: \"ingotIron\", \"ingotIron\", \"ingotIron\", \"ingotIron\", Items.ENDER_PEARL"
+}

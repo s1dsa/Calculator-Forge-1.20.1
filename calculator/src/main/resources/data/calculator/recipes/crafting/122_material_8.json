@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:enddiamond"
+    }
+  },
+  "result": {
+    "item": "calculator:material_8",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java material enum 8"
+}

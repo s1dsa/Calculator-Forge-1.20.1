@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/stoneassimilator_inventory_49116a5bc5ef"
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/stoneassimilator_inventory_49116a5bc5ef",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/stoneassimilator_inventory_49116a5bc5ef",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/stoneassimilator_inventory_49116a5bc5ef",
+      "y": 90
+    }
+  }
+}

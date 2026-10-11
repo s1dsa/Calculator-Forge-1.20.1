@@ -1,0 +1,20 @@
+{
+  "type": "calculator:analysing",
+  "order": 60,
+  "shapeless": false,
+  "ingredients": [],
+  "results": [
+    {
+      "item": "calculator:flawlesscalculator",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/AnalysingChamberRecipes.java: 5, 3, new ItemStack(Calculator.itemFlawlessCalculator, 1)",
+  "input_values": [
+    5,
+    3
+  ]
+}

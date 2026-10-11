@@ -1,0 +1,41 @@
+{
+  "type": "calculator:flawless",
+  "order": 4,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "minecraft:logs"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "minecraft:logs"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "minecraft:logs"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "minecraft:logs"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:obsidian",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/FlawlessCalculatorRecipes.java: \"logWood\", \"logWood\", \"logWood\", \"logWood\", Blocks.OBSIDIAN"
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "sonarcore:reinforcedstonestairs",
+    "sonarcore:reinforcedstonebrickstairs",
+    "sonarcore:reinforceddirtstairs",
+    "sonarcore:reinforceddirtbrickstairs"
+  ]
+}

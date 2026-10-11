@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    "BBB",
+    "A B"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:purifiedobsidian"
+    },
+    "B": {
+      "item": "calculator:enrichedgoldingot"
+    }
+  },
+  "result": {
+    "item": "calculator:obsidiankey",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShaped"
+}

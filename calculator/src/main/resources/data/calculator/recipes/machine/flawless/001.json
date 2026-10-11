@@ -1,0 +1,41 @@
+{
+  "type": "calculator:flawless",
+  "order": 1,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:diamond",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/FlawlessCalculatorRecipes.java: \"ingotGold\", \"ingotGold\", \"ingotGold\", \"ingotGold\", Items.DIAMOND"
+}

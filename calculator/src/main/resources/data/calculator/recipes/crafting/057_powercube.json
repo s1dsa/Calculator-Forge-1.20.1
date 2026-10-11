@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ADA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:cobblestone"
+    },
+    "D": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "calculator:powercube",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

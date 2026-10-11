@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "stage=0": {
+      "model": "calculator:block/converted/amethystsapling_d94e97492b98",
+      "uvlock": true
+    },
+    "stage=1": {
+      "model": "calculator:block/converted/amethystsapling_d94e97492b98",
+      "uvlock": true
+    }
+  }
+}

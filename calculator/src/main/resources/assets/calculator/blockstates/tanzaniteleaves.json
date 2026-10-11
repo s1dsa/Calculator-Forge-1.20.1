@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "growth=fresh": {
+      "model": "calculator:block/converted/tanzaniteleaves_inventory_289974741f55",
+      "uvlock": true
+    },
+    "growth=growing": {
+      "model": "calculator:block/converted/tanzaniteleaves_inventory_289974741f55",
+      "uvlock": true
+    },
+    "growth=ready": {
+      "model": "calculator:block/converted/tanzaniteleaves_d5ce19fbe903",
+      "uvlock": true
+    },
+    "growth=matured": {
+      "model": "calculator:block/converted/tanzaniteleaves_d5ce19fbe903",
+      "uvlock": true
+    }
+  }
+}

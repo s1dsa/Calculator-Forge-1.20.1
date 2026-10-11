@@ -1,0 +1,23 @@
+{
+  "type": "calculator:reassembly",
+  "order": 6,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:circuitdamaged_6"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:circuitboard_6",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "reassemblyChamberRecipes.addCircuit meta=6"
+}

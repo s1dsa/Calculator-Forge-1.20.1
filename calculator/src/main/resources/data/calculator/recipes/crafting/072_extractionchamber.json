@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "calculator:reinforced_stone"
+    },
+    "B": {
+      "item": "calculator:weakeneddiamond"
+    },
+    "C": {
+      "item": "calculator:powercube"
+    }
+  },
+  "result": {
+    "item": "calculator:extractionchamber",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

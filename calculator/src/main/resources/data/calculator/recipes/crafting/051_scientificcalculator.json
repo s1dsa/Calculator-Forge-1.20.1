@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "BAB",
+    "CAC"
+  ],
+  "key": {
+    "B": {
+      "tag": "calculator:reinforced_stone"
+    },
+    "A": {
+      "item": "calculator:calculatorassembly"
+    },
+    "S": {
+      "item": "calculator:calculatorscreen"
+    },
+    "C": {
+      "item": "calculator:enrichedgoldingot"
+    }
+  },
+  "result": {
+    "item": "calculator:scientificcalculator",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

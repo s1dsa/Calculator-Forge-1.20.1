@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/moduleworkstation_inventory_1f4d77a09c37",
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/moduleworkstation_inventory_1f4d77a09c37",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/moduleworkstation_inventory_1f4d77a09c37",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/moduleworkstation_inventory_1f4d77a09c37",
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

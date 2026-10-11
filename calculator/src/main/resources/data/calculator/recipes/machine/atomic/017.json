@@ -1,0 +1,35 @@
+{
+  "type": "calculator:atomic",
+  "order": 17,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:material_3"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:reinforcedchest"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:material_3"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:storagechamber",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/AtomicCalculatorRecipes.java: new ItemStack(Calculator.material_block, 1, Variants.REINFORCED_IRON.getMeta()), Calculator.reinforcedChest, new ItemStack(Calculator.material_block, 1, Variants.REINFORCED_IRON.getMeta()), Calculator.storageChamber"
+}

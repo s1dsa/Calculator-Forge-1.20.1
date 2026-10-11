@@ -1,0 +1,219 @@
+{
+  "variants": {
+    "facing=east,half=bottom,shape=straight": {
+      "model": "calculator:block/converted/pearstairs_inventory_9dc41b03afe1",
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=outer_right": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=outer_left": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=inner_right": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=inner_left": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=straight": {
+      "model": "calculator:block/converted/pearstairs_inventory_9dc41b03afe1",
+      "x": 180,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=outer_right": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "x": 180,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=outer_left": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=inner_right": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=inner_left": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=straight": {
+      "model": "calculator:block/converted/pearstairs_inventory_9dc41b03afe1",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=outer_right": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=outer_left": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=inner_right": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=inner_left": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=straight": {
+      "model": "calculator:block/converted/pearstairs_inventory_9dc41b03afe1",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=outer_right": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=outer_left": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=inner_right": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=inner_left": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=straight": {
+      "model": "calculator:block/converted/pearstairs_inventory_9dc41b03afe1",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=outer_right": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=outer_left": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=inner_right": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=inner_left": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=straight": {
+      "model": "calculator:block/converted/pearstairs_inventory_9dc41b03afe1",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=outer_right": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=outer_left": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=inner_right": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=inner_left": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=north,half=bottom,shape=straight": {
+      "model": "calculator:block/converted/pearstairs_inventory_9dc41b03afe1",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=north,half=bottom,shape=outer_right": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=north,half=bottom,shape=outer_left": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=north,half=bottom,shape=inner_right": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=north,half=bottom,shape=inner_left": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=north,half=top,shape=straight": {
+      "model": "calculator:block/converted/pearstairs_inventory_9dc41b03afe1",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=north,half=top,shape=outer_right": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=north,half=top,shape=outer_left": {
+      "model": "calculator:block/converted/pearstairs_e16771a40a63",
+      "x": 180,
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=north,half=top,shape=inner_right": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "x": 180,
+      "y": 0,
+      "uvlock": true
+    },
+    "facing=north,half=top,shape=inner_left": {
+      "model": "calculator:block/converted/pearstairs_c6c1aa9f7ed3",
+      "x": 180,
+      "y": 0,
+      "uvlock": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "sonarcore",
+  "result": {
+    "item": "sonarcore:reinforceddirtbrick",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "sonarcore:reinforceddirtblock"
+    },
+    {
+      "item": "sonarcore:reinforceddirtblock"
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "calculator"
+      }
+    }
+  ]
+}

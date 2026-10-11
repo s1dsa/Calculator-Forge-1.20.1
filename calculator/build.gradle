@@ -1,0 +1,21 @@
+ext.mod_name = 'Calculator'
+ext.mod_license = 'MIT'
+ext.mod_description = 'Calculator machines, items and world content for Forge 1.20.1.'
+
+evaluationDependsOn(':sonarcore')
+
+dependencies {
+    implementation project(':sonarcore')
+}
+
+minecraft.runs.configureEach {
+    mods {
+        sonarcore { source project(':sonarcore').sourceSets.main }
+    }
+    property 'forge.enabledGameTestNamespaces', 'sonarcore,calculator'
+}
+
+// #19: optional JEI integration. The fragment keeps JEI on the compile classpath (so
+// integration/jei/** builds) and, unless -Pjei=false is passed, adds the JEI mod to the dev runs.
+// The distributed jar never carries JEI and the dedicated server never loads a client class.
+apply from: 'jei.gradle'

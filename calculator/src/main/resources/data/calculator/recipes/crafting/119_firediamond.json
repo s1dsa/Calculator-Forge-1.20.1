@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "calculator:material_6"
+    }
+  ],
+  "result": {
+    "item": "calculator:firediamond",
+    "count": 9
+  },
+  "_source": "CalculatorCrafting.java material enum 6"
+}

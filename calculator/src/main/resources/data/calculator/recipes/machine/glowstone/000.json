@@ -1,0 +1,18 @@
+{
+  "type": "calculator:glowstone",
+  "order": 0,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "forge:dusts/glowstone"
+      },
+      "count": 1
+    }
+  ],
+  "results": [],
+  "value": 1000,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/GlowstoneExtractorRecipes.java: \"dustGlowstone\", 1000"
+}

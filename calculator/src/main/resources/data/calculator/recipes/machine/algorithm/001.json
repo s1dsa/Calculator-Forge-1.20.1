@@ -1,0 +1,27 @@
+{
+  "type": "calculator:algorithm",
+  "order": 1,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:smalltanzanite",
+      "count": 1
+    },
+    {
+      "item": "calculator:shardtanzanite",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/AlgorithmSeparatorRecipes.java: \"gemLapis\", Calculator.small_tanzanite, Calculator.shard_tanzanite"
+}

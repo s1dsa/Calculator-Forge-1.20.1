@@ -1,0 +1,23 @@
+{
+  "type": "calculator:restoration",
+  "order": 12,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:circuitdirty_12"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:circuitboard_12",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "restorationChamberRecipes.addCircuit meta=12"
+}

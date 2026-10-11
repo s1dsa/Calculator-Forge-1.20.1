@@ -1,0 +1,23 @@
+{
+  "type": "calculator:processing",
+  "order": 9,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:circuitdirty_4"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:circuitboard_4",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "processingChamberRecipes.addCircuit meta=4"
+}

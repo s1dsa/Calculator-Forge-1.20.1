@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:largeamethyst"
+    },
+    "B": {
+      "item": "calculator:redstoneingot"
+    },
+    "C": {
+      "item": "calculator:advancedassembly"
+    }
+  },
+  "result": {
+    "item": "calculator:hungerprocessor",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShaped"
+}

@@ -1,0 +1,35 @@
+{
+  "type": "calculator:atomic",
+  "order": 20,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:reinforcedironingot"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:electricdiamond"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:reinforcedironingot"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:transmitter",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/AtomicCalculatorRecipes.java: Calculator.reinforcediron_ingot, Calculator.electricDiamond, Calculator.reinforcediron_ingot, Calculator.transmitter"
+}

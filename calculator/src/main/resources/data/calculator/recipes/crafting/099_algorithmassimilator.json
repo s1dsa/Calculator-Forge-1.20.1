@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "IPI",
+    " I "
+  ],
+  "key": {
+    "P": {
+      "item": "calculator:algorithmseparator"
+    },
+    "I": {
+      "item": "calculator:material_3"
+    },
+    "S": {
+      "item": "calculator:sickle"
+    }
+  },
+  "result": {
+    "item": "calculator:algorithmassimilator",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShaped"
+}

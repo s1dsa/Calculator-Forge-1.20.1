@@ -1,0 +1,20 @@
+{
+  "type": "calculator:analysing",
+  "order": 35,
+  "shapeless": false,
+  "ingredients": [],
+  "results": [
+    {
+      "item": "calculator:amethystsapling",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/AnalysingChamberRecipes.java: 3, 4, new ItemStack(Calculator.amethystSapling, 1)",
+  "input_values": [
+    3,
+    4
+  ]
+}

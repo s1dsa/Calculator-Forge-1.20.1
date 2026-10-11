@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "sonarcore",
+  "result": {
+    "item": "sonarcore:stablestone_normal",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "sonarcore:reinforcedstonebrick"
+    },
+    {
+      "item": "sonarcore:reinforcedstonebrick"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "calculator:material_2"
+    }
+  ],
+  "result": {
+    "item": "calculator:enrichedgoldingot",
+    "count": 9
+  },
+  "_source": "CalculatorCrafting.java material enum 2"
+}

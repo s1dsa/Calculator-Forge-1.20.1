@@ -1,0 +1,46 @@
+# ---- Gradle / build output ----
+.gradle/
+**/build/
+**/run/
+.bootstrap/
+logs/
+*.log
+*.log.gz
+
+# ---- IDE / editor ----
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# ---- Local-only working artifacts (not part of the published source) ----
+# Download caches, tool installations and Python bytecode
+.tools/
+.cache/
+__pycache__/
+*.pyc
+
+# Audit snapshots and pre-change source backups
+audit/
+
+# Ad-hoc local javac probe (hard-codes machine-specific .cache/.tools paths)
+tools/_client_javac.py
+
+# Local build/feedback output bundles (jars, zips, candidate folders)
+dist/
+
+# Development notes/reports containing local paths, machine info and dated status
+notes/
+
+# Dated status/contract working docs superseded by README.md and KNOWN_ISSUES.md
+ACCEPTANCE-STATUS.md
+RELEASE-CANDIDATE.md
+IMPLEMENTATION-CONTRACT.md
+sonarcore/PORTING.md
+
+# ---- OS noise ----
+Thumbs.db
+Desktop.ini
+.DS_Store

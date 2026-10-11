@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FSF",
+    "DAD",
+    "FEF"
+  ],
+  "key": {
+    "F": {
+      "item": "calculator:flawlessdiamond"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "E": {
+      "item": "calculator:enddiamond"
+    },
+    "A": {
+      "item": "calculator:flawlessassembly"
+    },
+    "S": {
+      "item": "calculator:calculatorscreen"
+    }
+  },
+  "result": {
+    "item": "calculator:flawlesscalculator",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

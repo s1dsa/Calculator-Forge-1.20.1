@@ -1,0 +1,27 @@
+{
+  "type": "calculator:precision",
+  "order": 2,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "forge:stone"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:smallstone",
+      "count": 2
+    },
+    {
+      "item": "calculator:circuitdamaged",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/PrecisionChamberRecipes.java: \"stone\", new ItemStack(Calculator.small_stone, 2), new ItemStack(Calculator.circuitDamaged, 1, 0)"
+}

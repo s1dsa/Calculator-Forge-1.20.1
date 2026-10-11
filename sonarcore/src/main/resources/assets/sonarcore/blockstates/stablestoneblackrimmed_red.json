@@ -1,0 +1,196 @@
+{
+  "variants": {
+    "down=false,east=false,north=false,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red"
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_000010"
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_100000"
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_001000"
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_000100"
+    },
+    "down=false,east=false,north=false,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_000001"
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_010000"
+    },
+    "down=false,east=true,north=false,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_010010"
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_000011"
+    },
+    "down=true,east=true,north=false,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_110000"
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_100001"
+    },
+    "down=false,east=false,north=true,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_001010"
+    },
+    "down=false,east=false,north=false,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_000110"
+    },
+    "down=true,east=false,north=true,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_101000"
+    },
+    "down=true,east=false,north=false,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_100100"
+    },
+    "down=false,east=true,north=true,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_011000"
+    },
+    "down=false,east=true,north=false,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_010100"
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_001001"
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_000101"
+    },
+    "down=true,east=false,north=false,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_100010"
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_010001"
+    },
+    "down=false,east=false,north=true,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_001100"
+    },
+    "down=true,east=false,north=false,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_100011"
+    },
+    "down=true,east=false,north=false,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_100110"
+    },
+    "down=true,east=true,north=false,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_110010"
+    },
+    "down=true,east=false,north=true,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_101010"
+    },
+    "down=false,east=false,north=true,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_001101"
+    },
+    "down=false,east=true,north=true,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_011100"
+    },
+    "down=false,east=true,north=false,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_010011"
+    },
+    "down=false,east=true,north=false,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_010101"
+    },
+    "down=true,east=true,north=false,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_110001"
+    },
+    "down=false,east=true,north=true,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_011001"
+    },
+    "down=false,east=false,north=true,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_001110"
+    },
+    "down=true,east=false,north=true,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_101100"
+    },
+    "down=false,east=true,north=false,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_010110"
+    },
+    "down=false,east=false,north=false,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_000111"
+    },
+    "down=false,east=true,north=true,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_011010"
+    },
+    "down=true,east=true,north=true,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_111000"
+    },
+    "down=true,east=true,north=false,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_110100"
+    },
+    "down=true,east=false,north=false,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_100101"
+    },
+    "down=true,east=false,north=true,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_101001"
+    },
+    "down=false,east=false,north=true,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_001011"
+    },
+    "down=true,east=true,north=false,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_110011"
+    },
+    "down=false,east=true,north=true,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_011101"
+    },
+    "down=true,east=false,north=true,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_101110"
+    },
+    "down=true,east=false,north=true,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_101011"
+    },
+    "down=true,east=false,north=true,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_101101"
+    },
+    "down=false,east=false,north=true,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_001111"
+    },
+    "down=true,east=false,north=false,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_100111"
+    },
+    "down=true,east=true,north=true,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_111010"
+    },
+    "down=true,east=true,north=false,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_110110"
+    },
+    "down=false,east=true,north=true,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_011110"
+    },
+    "down=true,east=true,north=true,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_111100"
+    },
+    "down=false,east=true,north=false,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_010111"
+    },
+    "down=true,east=true,north=false,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_110101"
+    },
+    "down=false,east=true,north=true,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_011011"
+    },
+    "down=true,east=true,north=true,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_111001"
+    },
+    "down=true,east=true,north=true,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_111101"
+    },
+    "down=true,east=true,north=false,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_110111"
+    },
+    "down=true,east=false,north=true,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_101111"
+    },
+    "down=true,east=true,north=true,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_111110"
+    },
+    "down=true,east=true,north=true,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_111011"
+    },
+    "down=false,east=true,north=true,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_011111"
+    },
+    "down=true,east=true,north=true,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestoneblackrimmed_red_111111"
+    }
+  }
+}

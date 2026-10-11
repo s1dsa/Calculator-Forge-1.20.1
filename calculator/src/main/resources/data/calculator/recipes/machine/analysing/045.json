@@ -1,0 +1,20 @@
+{
+  "type": "calculator:analysing",
+  "order": 45,
+  "shapeless": false,
+  "ingredients": [],
+  "results": [
+    {
+      "item": "calculator:stoneseparator",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/AnalysingChamberRecipes.java: 4, 3, new ItemStack(Calculator.stoneSeparator, 1)",
+  "input_values": [
+    4,
+    3
+  ]
+}

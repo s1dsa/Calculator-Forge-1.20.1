@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CAC",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:calculatorplug"
+    },
+    "B": {
+      "item": "minecraft:beacon"
+    },
+    "C": {
+      "item": "calculator:atomicassembly"
+    },
+    "D": {
+      "tag": "sonarcore:stable_stone"
+    }
+  },
+  "result": {
+    "item": "calculator:calculatorlocator",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

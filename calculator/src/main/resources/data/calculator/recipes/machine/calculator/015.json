@@ -1,0 +1,29 @@
+{
+  "type": "calculator:calculator",
+  "order": 15,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:coaldust"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:coaldust"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:enrichedcoal",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/CalculatorRecipes.java: Calculator.enriched_coal, Calculator.coal_dust, Calculator.coal_dust"
+}

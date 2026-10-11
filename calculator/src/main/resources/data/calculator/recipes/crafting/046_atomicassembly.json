@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "AEA",
+    "BAB"
+  ],
+  "key": {
+    "E": {
+      "tag": "forge:gems/emerald"
+    },
+    "A": {
+      "item": "calculator:atomicmodule"
+    },
+    "B": {
+      "item": "calculator:advancedassembly"
+    }
+  },
+  "result": {
+    "item": "calculator:atomicassembly",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

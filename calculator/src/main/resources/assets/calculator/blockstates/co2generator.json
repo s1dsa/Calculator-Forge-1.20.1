@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/co2generator_inventory_f45f1c96896b",
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/co2generator_inventory_f45f1c96896b",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/co2generator_inventory_f45f1c96896b",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/co2generator_inventory_f45f1c96896b",
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

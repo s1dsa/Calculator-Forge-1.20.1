@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/fabricationchamber_3099468021e2"
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/fabricationchamber_3099468021e2",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/fabricationchamber_3099468021e2",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/fabricationchamber_3099468021e2",
+      "y": 90
+    }
+  }
+}

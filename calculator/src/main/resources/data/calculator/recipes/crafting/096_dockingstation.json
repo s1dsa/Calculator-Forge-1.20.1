@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "APA",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "tag": "calculator:reinforced_stone"
+    },
+    "P": {
+      "item": "calculator:powercube"
+    },
+    "A": {
+      "item": "calculator:calculatorassembly"
+    }
+  },
+  "result": {
+    "item": "calculator:dockingstation",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

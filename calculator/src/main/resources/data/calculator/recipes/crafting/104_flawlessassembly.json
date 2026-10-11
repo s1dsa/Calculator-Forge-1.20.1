@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "CAC",
+    "GCG"
+  ],
+  "key": {
+    "C": {
+      "item": "calculator:calculatorassembly"
+    },
+    "G": {
+      "item": "calculator:advancedassembly"
+    },
+    "A": {
+      "item": "calculator:atomicassembly"
+    }
+  },
+  "result": {
+    "item": "calculator:flawlessassembly",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

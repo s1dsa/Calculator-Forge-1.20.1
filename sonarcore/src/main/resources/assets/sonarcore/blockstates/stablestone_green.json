@@ -1,0 +1,196 @@
+{
+  "variants": {
+    "down=false,east=false,north=false,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green"
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_000010"
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_100000"
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_001000"
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_000100"
+    },
+    "down=false,east=false,north=false,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_000001"
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_010000"
+    },
+    "down=false,east=true,north=false,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_010010"
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_000011"
+    },
+    "down=true,east=true,north=false,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_110000"
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_100001"
+    },
+    "down=false,east=false,north=true,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_001010"
+    },
+    "down=false,east=false,north=false,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_000110"
+    },
+    "down=true,east=false,north=true,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_101000"
+    },
+    "down=true,east=false,north=false,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_100100"
+    },
+    "down=false,east=true,north=true,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_011000"
+    },
+    "down=false,east=true,north=false,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_010100"
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_001001"
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_000101"
+    },
+    "down=true,east=false,north=false,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_100010"
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_010001"
+    },
+    "down=false,east=false,north=true,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_001100"
+    },
+    "down=true,east=false,north=false,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_100011"
+    },
+    "down=true,east=false,north=false,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_100110"
+    },
+    "down=true,east=true,north=false,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_110010"
+    },
+    "down=true,east=false,north=true,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_101010"
+    },
+    "down=false,east=false,north=true,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_001101"
+    },
+    "down=false,east=true,north=true,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_011100"
+    },
+    "down=false,east=true,north=false,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_010011"
+    },
+    "down=false,east=true,north=false,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_010101"
+    },
+    "down=true,east=true,north=false,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_110001"
+    },
+    "down=false,east=true,north=true,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_011001"
+    },
+    "down=false,east=false,north=true,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_001110"
+    },
+    "down=true,east=false,north=true,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_101100"
+    },
+    "down=false,east=true,north=false,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_010110"
+    },
+    "down=false,east=false,north=false,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_000111"
+    },
+    "down=false,east=true,north=true,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_011010"
+    },
+    "down=true,east=true,north=true,south=false,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_111000"
+    },
+    "down=true,east=true,north=false,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_110100"
+    },
+    "down=true,east=false,north=false,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_100101"
+    },
+    "down=true,east=false,north=true,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_101001"
+    },
+    "down=false,east=false,north=true,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_001011"
+    },
+    "down=true,east=true,north=false,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_110011"
+    },
+    "down=false,east=true,north=true,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_011101"
+    },
+    "down=true,east=false,north=true,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_101110"
+    },
+    "down=true,east=false,north=true,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_101011"
+    },
+    "down=true,east=false,north=true,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_101101"
+    },
+    "down=false,east=false,north=true,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_001111"
+    },
+    "down=true,east=false,north=false,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_100111"
+    },
+    "down=true,east=true,north=true,south=false,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_111010"
+    },
+    "down=true,east=true,north=false,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_110110"
+    },
+    "down=false,east=true,north=true,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_011110"
+    },
+    "down=true,east=true,north=true,south=true,up=false,west=false": {
+      "model": "sonarcore:block/stablestone_green_111100"
+    },
+    "down=false,east=true,north=false,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_010111"
+    },
+    "down=true,east=true,north=false,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_110101"
+    },
+    "down=false,east=true,north=true,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_011011"
+    },
+    "down=true,east=true,north=true,south=false,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_111001"
+    },
+    "down=true,east=true,north=true,south=true,up=false,west=true": {
+      "model": "sonarcore:block/stablestone_green_111101"
+    },
+    "down=true,east=true,north=false,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_110111"
+    },
+    "down=true,east=false,north=true,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_101111"
+    },
+    "down=true,east=true,north=true,south=true,up=true,west=false": {
+      "model": "sonarcore:block/stablestone_green_111110"
+    },
+    "down=true,east=true,north=true,south=false,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_111011"
+    },
+    "down=false,east=true,north=true,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_011111"
+    },
+    "down=true,east=true,north=true,south=true,up=true,west=true": {
+      "model": "sonarcore:block/stablestone_green_111111"
+    }
+  }
+}

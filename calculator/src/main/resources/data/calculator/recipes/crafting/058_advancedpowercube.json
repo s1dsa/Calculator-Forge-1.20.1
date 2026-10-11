@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ADA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:redstoneingot"
+    },
+    "D": {
+      "item": "calculator:powercube"
+    }
+  },
+  "result": {
+    "item": "calculator:advancedpowercube",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShaped"
+}

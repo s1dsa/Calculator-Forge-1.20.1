@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/atomicmultiplier_inventory_e2ce26f7a025"
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/atomicmultiplier_inventory_e2ce26f7a025",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/atomicmultiplier_inventory_e2ce26f7a025",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/atomicmultiplier_inventory_e2ce26f7a025",
+      "y": 90
+    }
+  }
+}

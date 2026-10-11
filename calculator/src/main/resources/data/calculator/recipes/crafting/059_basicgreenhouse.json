@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BCB",
+    "CAC",
+    "BCB"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:material_3"
+    },
+    "B": {
+      "tag": "calculator:reinforced_stone"
+    },
+    "C": {
+      "item": "calculator:enrichedgoldingot"
+    }
+  },
+  "result": {
+    "item": "calculator:basicgreenhouse",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "CIC",
+    "GCG"
+  ],
+  "key": {
+    "C": {
+      "item": "calculator:calculatorassembly"
+    },
+    "G": {
+      "tag": "forge:gems/tanzanite"
+    },
+    "I": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "result": {
+    "item": "calculator:atomicmodule",
+    "count": 4
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

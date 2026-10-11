@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:material_3"
+    },
+    "B": {
+      "tag": "calculator:reinforced_stone"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "calculator:reinforcedchest",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

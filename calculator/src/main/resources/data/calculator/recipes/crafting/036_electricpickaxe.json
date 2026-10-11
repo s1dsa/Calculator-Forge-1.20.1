@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "R": {
+      "item": "calculator:electricdiamond"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "calculator:electricpickaxe",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

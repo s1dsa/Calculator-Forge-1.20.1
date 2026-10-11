@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "calculator:block/crankhandle_ber"
+    }
+  }
+}

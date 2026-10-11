@@ -1,0 +1,18 @@
+{
+  "type": "calculator:starch",
+  "order": 11,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:sugar_cane"
+      },
+      "count": 1
+    }
+  ],
+  "results": [],
+  "value": 1000,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/StarchExtractorRecipes.java: Items.REEDS, 1000"
+}

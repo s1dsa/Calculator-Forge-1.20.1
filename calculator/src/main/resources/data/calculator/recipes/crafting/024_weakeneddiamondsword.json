@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    " R ",
+    " S "
+  ],
+  "key": {
+    "R": {
+      "item": "calculator:weakeneddiamond"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "calculator:weakeneddiamondsword",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

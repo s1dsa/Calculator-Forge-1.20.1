@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "sonarcore",
+  "result": {
+    "item": "sonarcore:stablestone_cyan",
+    "count": 8
+  },
+  "pattern": [
+    "SSS",
+    "SDS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "sonarcore:stablestone_normal"
+    },
+    "D": {
+      "item": "minecraft:cyan_dye"
+    }
+  }
+}

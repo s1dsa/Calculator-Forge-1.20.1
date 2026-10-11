@@ -1,0 +1,39 @@
+{
+  "type": "calculator:fabrication",
+  "order": 4,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_4"
+      },
+      "count": 1,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_5"
+      },
+      "count": 1,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_6"
+      },
+      "count": 1,
+      "nbt": "{Stable:0,Analysed:1b}"
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:scientificcalculator",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/FabricationChamberRecipes.java: new ItemStack(Calculator.itemScientificCalculator, 1), c(4, 1, false), c(5, 1, false), c(6, 1, false)",
+  "allow_extra_inputs": true
+}

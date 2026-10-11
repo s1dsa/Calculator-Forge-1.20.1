@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "growth=fresh": {
+      "model": "calculator:block/converted/pearleaves_inventory_feec853ab016",
+      "uvlock": true
+    },
+    "growth=growing": {
+      "model": "calculator:block/converted/pearleaves_inventory_feec853ab016",
+      "uvlock": true
+    },
+    "growth=ready": {
+      "model": "calculator:block/converted/pearleaves_defe7d6130b5",
+      "uvlock": true
+    },
+    "growth=matured": {
+      "model": "calculator:block/converted/pearleaves_defe7d6130b5",
+      "uvlock": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "calculator:precision",
+  "order": 10,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "forge:gems/lapis"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:soil",
+      "count": 2
+    },
+    {
+      "item": "calculator:circuitdirty_8",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/PrecisionChamberRecipes.java: \"gemLapis\", new ItemStack(Calculator.soil, 2), new ItemStack(Calculator.circuitDirty, 1, 8)"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/lantern_da38b5f41af4",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/lantern_da38b5f41af4",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/lantern_da38b5f41af4"
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/lantern_da38b5f41af4",
+      "y": 180
+    }
+  }
+}

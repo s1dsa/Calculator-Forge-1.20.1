@@ -1,0 +1,35 @@
+{
+  "type": "calculator:atomic",
+  "order": 6,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:scientificcalculator"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:atomicbinder"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:redstoneingot"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:advancedterrainmodule",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/AtomicCalculatorRecipes.java: Calculator.itemScientificCalculator, Calculator.atomic_binder, Calculator.redstone_ingot, Calculator.itemAdvancedTerrainModule"
+}

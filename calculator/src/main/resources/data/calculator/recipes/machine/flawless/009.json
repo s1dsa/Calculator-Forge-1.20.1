@@ -1,0 +1,41 @@
+{
+  "type": "calculator:flawless",
+  "order": 9,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:enrichedcoal"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:enrichedcoal"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:controlledfuel",
+      "count": 4
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/FlawlessCalculatorRecipes.java: Calculator.circuitBoard, Calculator.enriched_coal, Calculator.enriched_coal, Calculator.circuitBoard, new ItemStack(Calculator.controlled_Fuel, 4)"
+}

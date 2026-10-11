@@ -1,0 +1,35 @@
+{
+  "type": "calculator:atomic",
+  "order": 16,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:energymodule"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:firediamond"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:energymodule"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:conductormast",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/AtomicCalculatorRecipes.java: Calculator.itemEnergyModule, Calculator.firediamond, Calculator.itemEnergyModule, Calculator.conductorMast"
+}

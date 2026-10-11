@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "R": {
+      "tag": "calculator:reinforced_stone"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "calculator:reinforcedpickaxe",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

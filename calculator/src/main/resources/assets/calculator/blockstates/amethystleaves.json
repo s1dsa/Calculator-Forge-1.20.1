@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "growth=fresh": {
+      "model": "calculator:block/converted/amethystleaves_inventory_84bd31849183",
+      "uvlock": true
+    },
+    "growth=growing": {
+      "model": "calculator:block/converted/amethystleaves_inventory_84bd31849183",
+      "uvlock": true
+    },
+    "growth=ready": {
+      "model": "calculator:block/converted/amethystleaves_2e0eb74334bf",
+      "uvlock": true
+    },
+    "growth=matured": {
+      "model": "calculator:block/converted/amethystleaves_2e0eb74334bf",
+      "uvlock": true
+    }
+  }
+}

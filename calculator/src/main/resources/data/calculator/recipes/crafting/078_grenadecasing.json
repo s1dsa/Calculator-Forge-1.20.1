@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R R",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "tag": "calculator:reinforced_stone"
+    }
+  },
+  "result": {
+    "item": "calculator:grenadecasing",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

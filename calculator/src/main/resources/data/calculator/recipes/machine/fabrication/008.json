@@ -1,0 +1,25 @@
+{
+  "type": "calculator:fabrication",
+  "order": 8,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_7"
+      },
+      "count": 1,
+      "nbt": "{Stable:0,Analysed:1b}"
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:energyupgrade",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/FabricationChamberRecipes.java: new ItemStack(Calculator.energyUpgrade, 1), c(7, 1, false)",
+  "allow_extra_inputs": true
+}

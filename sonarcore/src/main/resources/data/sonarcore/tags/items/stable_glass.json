@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "sonarcore:stableglass",
+    "sonarcore:clearstableglass"
+  ]
+}

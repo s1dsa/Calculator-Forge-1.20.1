@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "calculator:reinforced_stone"
+    },
+    "B": {
+      "item": "calculator:powercube"
+    }
+  },
+  "result": {
+    "item": "calculator:reinforcedfurnace",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

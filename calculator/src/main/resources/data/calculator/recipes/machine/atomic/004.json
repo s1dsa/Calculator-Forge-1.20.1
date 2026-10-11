@@ -1,0 +1,35 @@
+{
+  "type": "calculator:atomic",
+  "order": 4,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:end_stone"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:electricdiamond"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:enddiamond",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/AtomicCalculatorRecipes.java: Blocks.END_STONE, Calculator.electricDiamond, Blocks.OBSIDIAN, Calculator.endDiamond"
+}

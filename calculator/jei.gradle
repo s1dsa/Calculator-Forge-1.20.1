@@ -1,0 +1,64 @@
+// Optional JEI integration wiring for the :calculator project.
+//
+// This file is a NEW, self-contained build fragment, applied from calculator/build.gradle with
+// `apply from: 'jei.gradle'` (owned by the integrator). Nothing here is packaged into the
+// distributed jar:
+//
+//   * compileOnly  - the JEI API artifact, needed to compile sonar.calculator.mod.integration.jei
+//   * runtimeOnly  - the full JEI mod, only so the dev runs can be launched with JEI present
+//
+// JEI is an OPTIONAL dependency: the distributed mod jar never contains any mezz.jei class and the
+// dedicated server never loads a client class of this mod, because the only JEI-touching source is
+// sonar.calculator.mod.integration.jei, which nothing else references and which JEI's own client-side
+// @JeiPlugin scan loads. `fg.deobf` is required because JEI's 1.20.1 artifacts are published with SRG
+// member names (verified: Rect2i.m_110085_ in mezz.jei.common.util.ImmutableRect2i) while this
+// workspace compiles with official mappings.
+//
+// Version is pinned. Override with -Pjei_version=<version> for an explicit re-verification.
+// Pass -Pjei=false to drop the JEI *mod* from the dev runtimes (the API stays on the compile
+// classpath so the sources still build); that is how the "runs without JEI" case is exercised.
+
+ext.jei_version = project.findProperty('jei_version') ?: '15.62.0.219'
+
+repositories {
+    maven {
+        name = 'BlameJared'
+        url = 'https://maven.blamejared.com/'
+        content {
+            includeGroup 'mezz.jei'
+        }
+    }
+}
+
+dependencies {
+    // Always present while compiling: integration/jei/** references the JEI API.
+    //
+    // The 1.20.1 `jei-1.20.1-forge-api` artifact is a *stub*: it only carries `mezz/jei/api/forge/**`
+    // (10 entries - ForgeTypes). The actual API surface the plugin imports (IModPlugin, JeiPlugin,
+    // RecipeType, IRecipeLayoutBuilder, AbstractRecipeCategory, ... 16 imports in total) lives in
+    // `jei-1.20.1-common-api`, and its POM dependency on that artifact did NOT reach the mapped
+    // compile classpath (the `_mapped_official_1.20.1` variant ForgeGradle serves does not re-expose
+    // it), which is exactly what failed the first real build with "package mezz.jei.api does not exist"
+    // in 76 errors, all under integration/jei. Both API jars are therefore declared explicitly, and
+    // `transitive = false` keeps the resolution to these two jars (common-api declares no
+    // dependencies, so nothing is lost). Verified: jei-1.20.1-common-api contains all 16 imports.
+    compileOnly fg.deobf("mezz.jei:jei-1.20.1-forge-api:${jei_version}") { transitive = false }
+    compileOnly fg.deobf("mezz.jei:jei-1.20.1-common-api:${jei_version}") { transitive = false }
+    // Only added to the dev runs when JEI should actually be exercised at runtime.
+    // transitive = false is deliberate and required:
+    //   * the published jei-1.20.1-forge jar is self-contained - it already holds mezz/jei/api/**,
+    //     mezz/jei/common/**, mezz/jei/gui/** and the jar-in-jar mezz_config jar, so its split POM
+    //     modules would only duplicate classes on the dev runtime classpath;
+    //   * the POM also references build-only tooling (net.mezzdev:deduplicating-runner:0.1.0), which is
+    //     not published in any reachable repository, and mezz_config's jspecify/annotations deps that
+    //     live on Maven Central; resolving that closure aborts :calculator:compileJava.
+    // `fg.deobf(notation, closure)` applies the closure to the created ExternalModuleDependency, and the
+    // same instance is what lands on __obfuscated and on the classpath (ForgeGradle 6.0.54
+    // DependencyManagementExtension#deobf bytecode), so the flag is honoured on both.
+    if (project.findProperty('jei') != 'false') {
+        runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-forge:${jei_version}") { transitive = false }
+    }
+}
+
+// A dedicated launch configuration is deliberately NOT declared: production users install JEI
+// themselves as a normal (optional) mod, and the distributed jar must not carry it.

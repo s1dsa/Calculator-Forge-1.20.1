@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "cross": "calculator:blocks/wood/sapling_diamond",
+    "layer0": "calculator:blocks/wood/sapling_diamond"
+  }
+}

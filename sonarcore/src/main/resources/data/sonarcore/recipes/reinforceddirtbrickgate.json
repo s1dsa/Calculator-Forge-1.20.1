@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "sonarcore",
+  "result": {
+    "item": "sonarcore:reinforceddirtbrickgate",
+    "count": 1
+  },
+  "pattern": [
+    "SAS",
+    "SAS"
+  ],
+  "key": {
+    "A": {
+      "item": "sonarcore:reinforceddirtbrick"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  }
+}

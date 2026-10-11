@@ -1,0 +1,25 @@
+{
+  "type": "calculator:fabrication",
+  "order": 5,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_5"
+      },
+      "count": 50,
+      "nbt": "{Stable:0,Analysed:1b}"
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:warpmodule",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/FabricationChamberRecipes.java: new ItemStack(Calculator.itemWarpModule, 1), c(5, 50, false)",
+  "allow_extra_inputs": true
+}

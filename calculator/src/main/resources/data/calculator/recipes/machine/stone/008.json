@@ -1,0 +1,27 @@
+{
+  "type": "calculator:stone",
+  "order": 8,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:acacia_log"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:acacia_planks",
+      "count": 4
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 2
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/StoneSeparatorRecipes.java: new ItemStack(Blocks.LOG2, 1, 0), new ItemStack(Blocks.PLANKS, 4, 4), new ItemStack(Items.STICK, 2, 0)"
+}

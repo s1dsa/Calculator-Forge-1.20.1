@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:redstoneingot"
+    }
+  },
+  "result": {
+    "item": "calculator:material_9",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java material enum 9"
+}

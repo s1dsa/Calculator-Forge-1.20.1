@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "calculator:block/conductormastblock_ber"
+    }
+  }
+}

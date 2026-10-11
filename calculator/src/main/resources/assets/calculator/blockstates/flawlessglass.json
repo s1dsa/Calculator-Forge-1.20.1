@@ -1,0 +1,196 @@
+{
+  "variants": {
+    "down=false,east=false,north=false,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_2e458d67d1f5"
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_ce4c8ef542fa"
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_f9392a2722fc"
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_3a39969f12de"
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_b634c470d299"
+    },
+    "down=false,east=false,north=false,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_9b1d951d1276"
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_c0ae4e25409a"
+    },
+    "down=false,east=true,north=false,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_a9dbc273a433"
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_d52fb865cdc7"
+    },
+    "down=true,east=true,north=false,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_f42d0a43e8e1"
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_68ca6255d778"
+    },
+    "down=false,east=false,north=true,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_56b6382207e2"
+    },
+    "down=false,east=false,north=false,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_9cc014326021"
+    },
+    "down=true,east=false,north=true,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_f59ca9aaabd9"
+    },
+    "down=true,east=false,north=false,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_682159c618f5"
+    },
+    "down=false,east=true,north=true,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_886b626e5697"
+    },
+    "down=false,east=true,north=false,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_33499ec72ea2"
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_0a34b892bd5b"
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_019eb2618389"
+    },
+    "down=true,east=false,north=false,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_14d9264a3cb4"
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_f15dd16766b0"
+    },
+    "down=false,east=false,north=true,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_cc7b1e3e7a8f"
+    },
+    "down=true,east=false,north=false,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_91c132c081b4"
+    },
+    "down=true,east=false,north=false,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_d6a75ec3e0b7"
+    },
+    "down=true,east=true,north=false,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_daa090411dc9"
+    },
+    "down=true,east=false,north=true,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_6944b0ae057a"
+    },
+    "down=false,east=false,north=true,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_7c0dbdca351d"
+    },
+    "down=false,east=true,north=true,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_611f13a4c19b"
+    },
+    "down=false,east=true,north=false,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_2ac3774c42e2"
+    },
+    "down=false,east=true,north=false,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_6719f653ecac"
+    },
+    "down=true,east=true,north=false,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_79a5a485c671"
+    },
+    "down=false,east=true,north=true,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_394e7279b293"
+    },
+    "down=false,east=false,north=true,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_b60a7239e02b"
+    },
+    "down=true,east=false,north=true,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_15263b682adb"
+    },
+    "down=false,east=true,north=false,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_9c325ab4bcd0"
+    },
+    "down=false,east=false,north=false,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_3edf6462652c"
+    },
+    "down=false,east=true,north=true,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_aeaac3909775"
+    },
+    "down=true,east=true,north=true,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_76dcb48b022e"
+    },
+    "down=true,east=true,north=false,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_be8dc82f138d"
+    },
+    "down=true,east=false,north=false,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_9e6443e3490a"
+    },
+    "down=true,east=false,north=true,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_f4d85479a6df"
+    },
+    "down=false,east=false,north=true,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_3c5661c431e7"
+    },
+    "down=true,east=true,north=false,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_51c6ea87e292"
+    },
+    "down=false,east=true,north=true,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_707cd0d332fc"
+    },
+    "down=true,east=false,north=true,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_40edf753065a"
+    },
+    "down=true,east=false,north=true,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_c0b7b4159724"
+    },
+    "down=true,east=false,north=true,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_f4ed6b6ed8f2"
+    },
+    "down=false,east=false,north=true,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_a88d698b6960"
+    },
+    "down=true,east=false,north=false,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_aa8debff998d"
+    },
+    "down=true,east=true,north=true,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_dabe5226d8d0"
+    },
+    "down=true,east=true,north=false,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_f970697b4fa9"
+    },
+    "down=false,east=true,north=true,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_e2b397868325"
+    },
+    "down=true,east=true,north=true,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/flawlessglass_b573f9f16e14"
+    },
+    "down=false,east=true,north=false,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_56fc2f8285b3"
+    },
+    "down=true,east=true,north=false,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_cbe35edb9129"
+    },
+    "down=false,east=true,north=true,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_c56e08982239"
+    },
+    "down=true,east=true,north=true,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_a53e5cc4d9f0"
+    },
+    "down=true,east=true,north=true,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/flawlessglass_838020d7590d"
+    },
+    "down=true,east=true,north=false,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_84afebbe49b9"
+    },
+    "down=true,east=false,north=true,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_cb2b95b1f36d"
+    },
+    "down=true,east=true,north=true,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/flawlessglass_4366876b5471"
+    },
+    "down=true,east=true,north=true,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_fda43bcbdb65"
+    },
+    "down=false,east=true,north=true,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_0a695c2d91ba"
+    },
+    "down=true,east=true,north=true,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/flawlessglass_2e458d67d1f5"
+    }
+  }
+}

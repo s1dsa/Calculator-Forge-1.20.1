@@ -1,0 +1,20 @@
+{
+  "type": "calculator:analysing",
+  "order": 8,
+  "shapeless": false,
+  "ingredients": [],
+  "results": [
+    {
+      "item": "calculator:reinforcedironsword",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/AnalysingChamberRecipes.java: 1, 9, new ItemStack(Calculator.reinforcediron_sword, 1)",
+  "input_values": [
+    1,
+    9
+  ]
+}

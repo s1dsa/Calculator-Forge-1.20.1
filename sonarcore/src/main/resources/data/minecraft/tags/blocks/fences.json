@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "sonarcore:reinforcedstonefence",
+    "sonarcore:reinforcedstonebrickfence",
+    "sonarcore:reinforceddirtfence",
+    "sonarcore:reinforceddirtbrickfence"
+  ]
+}

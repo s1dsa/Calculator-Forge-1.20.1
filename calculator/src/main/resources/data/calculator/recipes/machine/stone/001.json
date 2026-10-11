@@ -1,0 +1,27 @@
+{
+  "type": "calculator:stone",
+  "order": 1,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "forge:ores/iron"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:reinforcedironingot",
+      "count": 4
+    },
+    {
+      "item": "calculator:smallstone",
+      "count": 2
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/StoneSeparatorRecipes.java: \"oreIron\", new ItemStack(Calculator.reinforcediron_ingot, 4), new ItemStack(Calculator.small_stone, 2)"
+}

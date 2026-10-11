@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "BAB",
+    "CCC"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stone_button"
+    },
+    "A": {
+      "item": "minecraft:crafting_table"
+    },
+    "S": {
+      "item": "calculator:calculatorscreen"
+    },
+    "C": {
+      "tag": "forge:cobblestone"
+    }
+  },
+  "result": {
+    "item": "calculator:craftingcalculator",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "calculator:block/converted/pearlog_inventory_38f3fc5f4043",
+      "uvlock": true
+    },
+    "axis=z": {
+      "model": "calculator:block/converted/pearlog_inventory_38f3fc5f4043",
+      "x": 90,
+      "uvlock": true
+    },
+    "axis=x": {
+      "model": "calculator:block/converted/pearlog_inventory_38f3fc5f4043",
+      "x": 90,
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BCB",
+    "ADA",
+    "BCB"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:stoneseparator"
+    },
+    "B": {
+      "item": "calculator:material_3"
+    },
+    "C": {
+      "item": "calculator:powercube"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "result": {
+    "item": "calculator:algorithmseparator",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

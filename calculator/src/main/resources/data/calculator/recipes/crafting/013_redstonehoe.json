@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RR ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "R": {
+      "item": "calculator:redstoneingot"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "calculator:redstonehoe",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

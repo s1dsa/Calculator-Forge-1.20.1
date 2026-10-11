@@ -1,0 +1,35 @@
+{
+  "type": "calculator:atomic",
+  "order": 7,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:tanzanitelog"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:atomicbinder"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:tanzaniteleaves"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:tanzanitesapling",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/AtomicCalculatorRecipes.java: Calculator.tanzaniteLog, Calculator.atomic_binder, Calculator.tanzaniteLeaves, Calculator.tanzaniteSapling"
+}

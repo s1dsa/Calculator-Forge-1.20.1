@@ -1,0 +1,25 @@
+{
+  "type": "calculator:fabrication",
+  "order": 9,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_8"
+      },
+      "count": 1,
+      "nbt": "{Stable:0,Analysed:1b}"
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:voidupgrade",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/FabricationChamberRecipes.java: new ItemStack(Calculator.voidUpgrade, 1), c(8, 1, false)",
+  "allow_extra_inputs": true
+}

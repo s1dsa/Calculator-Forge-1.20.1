@@ -1,0 +1,18 @@
+{
+  "type": "calculator:health",
+  "order": 5,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:egg"
+      },
+      "count": 1
+    }
+  ],
+  "results": [],
+  "value": 1,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/HealthProcessorRecipes.java: Items.EGG, 1"
+}

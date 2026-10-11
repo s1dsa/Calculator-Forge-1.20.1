@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GCG",
+    "CAC",
+    "GCG"
+  ],
+  "key": {
+    "C": {
+      "item": "calculator:atomicbinder"
+    },
+    "G": {
+      "tag": "calculator:reinforced_stone"
+    },
+    "A": {
+      "item": "calculator:atomicmodule"
+    }
+  },
+  "result": {
+    "item": "calculator:moduleworkstation",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

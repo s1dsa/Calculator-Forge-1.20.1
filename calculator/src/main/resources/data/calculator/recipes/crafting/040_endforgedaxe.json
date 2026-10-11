@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RR ",
+    "RS ",
+    " S "
+  ],
+  "key": {
+    "R": {
+      "item": "calculator:enddiamond"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "calculator:endforgedaxe",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

@@ -1,0 +1,66 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "calculator:block/converted/amethystpiping_inventory_785d4a68b86d"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/amethystpiping_inventory_down_09d948016954",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/amethystpiping_inventory_down_09d948016954",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/amethystpiping_inventory_down_09d948016954",
+        "x": 90,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/amethystpiping_inventory_down_09d948016954",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "down": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/amethystpiping_inventory_down_09d948016954"
+      }
+    },
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/amethystpiping_inventory_down_09d948016954",
+        "x": 180
+      }
+    }
+  ]
+}

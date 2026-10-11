@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DSD",
+    "RRR"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "D": {
+      "item": "calculator:electricdiamond"
+    },
+    "R": {
+      "item": "calculator:rainsensor"
+    }
+  },
+  "result": {
+    "item": "calculator:weathercontroller",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShaped"
+}

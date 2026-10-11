@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "sonarcore",
+  "result": {
+    "item": "sonarcore:stablestonerimmed_orange",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "sonarcore:stablestone_orange"
+    }
+  ]
+}

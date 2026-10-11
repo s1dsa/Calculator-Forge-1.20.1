@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/handcrankedgenerator_inventory_2e4ab8ab607b",
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/handcrankedgenerator_inventory_2e4ab8ab607b",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/handcrankedgenerator_inventory_2e4ab8ab607b",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/handcrankedgenerator_inventory_2e4ab8ab607b",
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "sonarcore:reinforcedstonegate",
+    "sonarcore:reinforcedstonebrickgate",
+    "sonarcore:reinforceddirtgate",
+    "sonarcore:reinforceddirtbrickgate"
+  ]
+}

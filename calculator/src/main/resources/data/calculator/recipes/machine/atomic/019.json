@@ -1,0 +1,35 @@
+{
+  "type": "calculator:atomic",
+  "order": 19,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:reinforcedironingot"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:chest"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:reinforcedironingot"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:storagemodule",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/AtomicCalculatorRecipes.java: Calculator.reinforcediron_ingot, Blocks.CHEST, Calculator.reinforcediron_ingot, Calculator.itemStorageModule"
+}

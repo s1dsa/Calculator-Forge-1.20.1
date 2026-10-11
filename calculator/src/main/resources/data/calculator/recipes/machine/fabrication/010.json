@@ -1,0 +1,25 @@
+{
+  "type": "calculator:fabrication",
+  "order": 10,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_9"
+      },
+      "count": 1,
+      "nbt": "{Stable:0,Analysed:1b}"
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:transferupgrade",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/FabricationChamberRecipes.java: new ItemStack(Calculator.transferUpgrade, 1), c(9, 1, false)",
+  "allow_extra_inputs": true
+}

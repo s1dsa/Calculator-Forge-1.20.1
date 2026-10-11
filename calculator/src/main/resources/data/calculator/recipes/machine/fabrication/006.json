@@ -1,0 +1,25 @@
+{
+  "type": "calculator:fabrication",
+  "order": 6,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_6"
+      },
+      "count": 50,
+      "nbt": "{Stable:0,Analysed:1b}"
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:jumpmodule",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/FabricationChamberRecipes.java: new ItemStack(Calculator.itemJumpModule, 1), c(6, 50, false)",
+  "allow_extra_inputs": true
+}

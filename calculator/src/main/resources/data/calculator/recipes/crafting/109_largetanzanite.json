@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "calculator:material_1"
+    }
+  ],
+  "result": {
+    "item": "calculator:largetanzanite",
+    "count": 9
+  },
+  "_source": "CalculatorCrafting.java material enum 1"
+}

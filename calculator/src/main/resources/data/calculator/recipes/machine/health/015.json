@@ -1,0 +1,18 @@
+{
+  "type": "calculator:health",
+  "order": 15,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:magma_cream"
+      },
+      "count": 1
+    }
+  ],
+  "results": [],
+  "value": 25,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/HealthProcessorRecipes.java: Items.MAGMA_CREAM, 25"
+}

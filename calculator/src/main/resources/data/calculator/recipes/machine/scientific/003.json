@@ -1,0 +1,29 @@
+{
+  "type": "calculator:scientific",
+  "order": 3,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:babygrenade"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:babygrenade"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:grenade",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/ScientificRecipes.java: Calculator.baby_grenade, Calculator.baby_grenade, Calculator.grenade"
+}

@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/basicgreenhouse_inventory_2c8bc6761f20",
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/basicgreenhouse_inventory_2c8bc6761f20",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/basicgreenhouse_inventory_2c8bc6761f20",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/basicgreenhouse_inventory_2c8bc6761f20",
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "calculator:material_9"
+    }
+  ],
+  "result": {
+    "item": "calculator:redstoneingot",
+    "count": 9
+  },
+  "_source": "CalculatorCrafting.java material enum 9"
+}

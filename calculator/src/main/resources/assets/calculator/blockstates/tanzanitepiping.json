@@ -1,0 +1,66 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "calculator:block/converted/tanzanitepiping_inventory_052c445f7edd"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/tanzanitepiping_inventory_down_a821d89364ed",
+        "x": 90,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/tanzanitepiping_inventory_down_a821d89364ed",
+        "x": 90,
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/tanzanitepiping_inventory_down_a821d89364ed",
+        "x": 90,
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/tanzanitepiping_inventory_down_a821d89364ed",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "down": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/tanzanitepiping_inventory_down_a821d89364ed"
+      }
+    },
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/tanzanitepiping_inventory_down_a821d89364ed",
+        "x": 180
+      }
+    }
+  ]
+}

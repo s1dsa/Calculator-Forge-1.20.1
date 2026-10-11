@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "calculator:material"
+    }
+  ],
+  "result": {
+    "item": "calculator:largeamethyst",
+    "count": 9
+  },
+  "_source": "CalculatorCrafting.java material enum 0"
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "calculator:block/converted/calculatorlocator_inventory_cba300f0e340"
+    },
+    "lit=false": {
+      "model": "calculator:block/converted/calculatorlocator_8a3081e7cb92"
+    }
+  }
+}

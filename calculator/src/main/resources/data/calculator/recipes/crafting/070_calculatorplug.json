@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "CAC",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "tag": "sonarcore:stable_stone"
+    },
+    "B": {
+      "item": "calculator:energymodule"
+    },
+    "C": {
+      "item": "calculator:advancedassembly"
+    },
+    "D": {
+      "item": "calculator:redstoneingot"
+    }
+  },
+  "result": {
+    "item": "calculator:calculatorplug",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

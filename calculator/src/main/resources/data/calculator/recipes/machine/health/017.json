@@ -1,0 +1,18 @@
+{
+  "type": "calculator:health",
+  "order": 17,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:white_wool"
+      },
+      "count": 1
+    }
+  ],
+  "results": [],
+  "value": 3,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/HealthProcessorRecipes.java: Blocks.WOOL, 3"
+}

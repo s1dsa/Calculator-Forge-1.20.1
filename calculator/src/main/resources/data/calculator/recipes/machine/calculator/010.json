@@ -1,0 +1,29 @@
+{
+  "type": "calculator:calculator",
+  "order": 10,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:reinforcedshovel"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:reinforcedaxe"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:sickle",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/CalculatorRecipes.java: Calculator.sickle, Calculator.reinforced_shovel, Calculator.reinforced_axe"
+}

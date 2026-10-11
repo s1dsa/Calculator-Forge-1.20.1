@@ -1,0 +1,18 @@
+{
+  "type": "calculator:starch",
+  "order": 0,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:apple"
+      },
+      "count": 1
+    }
+  ],
+  "results": [],
+  "value": 2000,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/StarchExtractorRecipes.java: Items.APPLE, 2000"
+}

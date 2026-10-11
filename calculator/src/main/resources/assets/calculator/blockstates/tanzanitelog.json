@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "calculator:block/converted/tanzanitelog_inventory_2416b14fe4bc",
+      "uvlock": true
+    },
+    "axis=z": {
+      "model": "calculator:block/converted/tanzanitelog_inventory_2416b14fe4bc",
+      "x": 90,
+      "uvlock": true
+    },
+    "axis=x": {
+      "model": "calculator:block/converted/tanzanitelog_inventory_2416b14fe4bc",
+      "x": 90,
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DCD",
+    "WAW",
+    "DWD"
+  ],
+  "key": {
+    "D": {
+      "tag": "calculator:reinforced_stone"
+    },
+    "A": {
+      "item": "calculator:atomicassembly"
+    },
+    "C": {
+      "item": "calculator:calculatorscreen"
+    },
+    "W": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "result": {
+    "item": "calculator:atomiccalculator",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

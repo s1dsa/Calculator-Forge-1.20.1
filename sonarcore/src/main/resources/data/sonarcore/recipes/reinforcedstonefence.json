@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "sonarcore",
+  "result": {
+    "item": "sonarcore:reinforcedstonefence",
+    "count": 6
+  },
+  "pattern": [
+    "ASA",
+    "ASA"
+  ],
+  "key": {
+    "A": {
+      "item": "sonarcore:reinforcedstoneblock"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  }
+}

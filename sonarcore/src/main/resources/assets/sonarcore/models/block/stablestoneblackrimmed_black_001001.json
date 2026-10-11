@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "sonarcore:blocks/connected/stablestonerimmedblack_black",
+    "north": "sonarcore:blocks/connected/stablestonerimmedblack_black",
+    "east": "sonarcore:blocks/connected/stablestonerimmedblack_6_black",
+    "south": "sonarcore:blocks/connected/stablestonerimmedblack_7_black",
+    "west": "sonarcore:blocks/connected/stablestonerimmedblack_black",
+    "up": "sonarcore:blocks/connected/stablestonerimmedblack_5_black",
+    "down": "sonarcore:blocks/connected/stablestonerimmedblack_10_black"
+  }
+}

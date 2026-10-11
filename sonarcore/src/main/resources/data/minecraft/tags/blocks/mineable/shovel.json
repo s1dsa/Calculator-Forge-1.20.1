@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "sonarcore:reinforceddirtblock",
+    "sonarcore:reinforceddirtstairs",
+    "sonarcore:reinforceddirtfence",
+    "sonarcore:reinforceddirtgate",
+    "sonarcore:reinforceddirtbrick",
+    "sonarcore:reinforceddirtbrickstairs",
+    "sonarcore:reinforceddirtbrickfence",
+    "sonarcore:reinforceddirtbrickgate"
+  ]
+}

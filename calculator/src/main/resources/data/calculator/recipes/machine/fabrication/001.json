@@ -1,0 +1,116 @@
+{
+  "type": "calculator:fabrication",
+  "order": 1,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard"
+      },
+      "count": 4,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_1"
+      },
+      "count": 4,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_2"
+      },
+      "count": 4,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_3"
+      },
+      "count": 4,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_4"
+      },
+      "count": 4,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_5"
+      },
+      "count": 4,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_6"
+      },
+      "count": 4,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_7"
+      },
+      "count": 4,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_8"
+      },
+      "count": 4,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_9"
+      },
+      "count": 4,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_10"
+      },
+      "count": 4,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_11"
+      },
+      "count": 4,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_12"
+      },
+      "count": 4,
+      "nbt": "{Stable:0,Analysed:1b}"
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_13"
+      },
+      "count": 4,
+      "nbt": "{Stable:0,Analysed:1b}"
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:atomicassembly",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/FabricationChamberRecipes.java: new ItemStack(Calculator.atomic_assembly, 1), c(0, 4, false), c(1, 4, false), c(2, 4, false), c(3, 4, false), c(4, 4, false), c(5, 4, false), c(6, 4, false), c(7, 4, false), c(8, 4, false), c(9, 4, false), c(10, 4, false), c(11, 4, false), c(12, 4, false), c(13, 4, false)",
+  "allow_extra_inputs": true
+}

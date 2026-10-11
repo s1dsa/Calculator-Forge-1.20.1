@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/storagechamber_inventory_705a5d2e3e16",
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/storagechamber_inventory_705a5d2e3e16",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/storagechamber_inventory_705a5d2e3e16",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/storagechamber_inventory_705a5d2e3e16",
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

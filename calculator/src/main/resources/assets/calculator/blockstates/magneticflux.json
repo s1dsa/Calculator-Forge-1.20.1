@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/magneticflux_inventory_aa3a28e172db"
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/magneticflux_inventory_aa3a28e172db"
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/magneticflux_inventory_aa3a28e172db"
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/magneticflux_inventory_aa3a28e172db"
+    }
+  }
+}

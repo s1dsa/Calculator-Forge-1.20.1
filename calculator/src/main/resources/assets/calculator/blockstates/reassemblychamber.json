@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/extractionchamber_704c119218b3"
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/extractionchamber_704c119218b3",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/extractionchamber_704c119218b3",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/extractionchamber_704c119218b3",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "calculator:precision",
+  "order": 13,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "forge:sandstone"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:smallstone",
+      "count": 2
+    },
+    {
+      "item": "calculator:circuitdamaged_11",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/PrecisionChamberRecipes.java: \"sandstone\", new ItemStack(Calculator.small_stone, 2), new ItemStack(Calculator.circuitDamaged, 1, 11)"
+}

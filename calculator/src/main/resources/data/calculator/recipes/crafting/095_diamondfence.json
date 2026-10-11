@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ASA",
+    "ASA"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:diamondplanks"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "calculator:diamondfence",
+    "count": 6
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

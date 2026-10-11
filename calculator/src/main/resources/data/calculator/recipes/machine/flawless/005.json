@@ -1,0 +1,41 @@
+{
+  "type": "calculator:flawless",
+  "order": 5,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:purifiedobsidian",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/FlawlessCalculatorRecipes.java: Blocks.OBSIDIAN, Blocks.OBSIDIAN, Blocks.OBSIDIAN, Blocks.OBSIDIAN, Calculator.purifiedObsidian"
+}

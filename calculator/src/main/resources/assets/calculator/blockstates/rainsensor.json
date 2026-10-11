@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "calculator:block/converted/rainsensor_073095d10279"
+    },
+    "lit=false": {
+      "model": "calculator:block/converted/rainsensor_inventory_db740cb7c0d0"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "calculator:processing",
+  "order": 10,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:circuitdamaged_5"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:circuitboard_5",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "processingChamberRecipes.addCircuit meta=5"
+}

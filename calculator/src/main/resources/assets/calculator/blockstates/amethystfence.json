@@ -1,0 +1,49 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "calculator:block/converted/amethystfence_187fa289565c",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/amethystfence_north_36a3a4150286",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/amethystfence_north_36a3a4150286",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/amethystfence_north_36a3a4150286",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/amethystfence_north_36a3a4150286",
+        "y": 270,
+        "uvlock": true
+      }
+    }
+  ]
+}

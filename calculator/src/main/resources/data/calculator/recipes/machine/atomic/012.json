@@ -1,0 +1,35 @@
+{
+  "type": "calculator:atomic",
+  "order": 12,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_6"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:atomicbinder"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "tag": "forge:dusts/enriched_gold"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:voidupgrade",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/AtomicCalculatorRecipes.java: new ItemStack(Calculator.circuitBoard, 1, 6), Calculator.atomic_binder, \"dustEnrichedGold\", Calculator.voidUpgrade"
+}

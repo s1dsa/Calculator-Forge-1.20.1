@@ -1,0 +1,41 @@
+{
+  "type": "calculator:flawless",
+  "order": 10,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:gaslanternoff"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_8"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:circuitboard_8"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:gaslanternoff"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:co2generator",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/FlawlessCalculatorRecipes.java: Calculator.gas_lantern_off, new ItemStack(Calculator.circuitBoard, 1, 8), new ItemStack(Calculator.circuitBoard, 1, 8), Calculator.gas_lantern_off, Calculator.CO2Generator"
+}

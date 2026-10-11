@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "CAC",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:atomicassembly"
+    },
+    "B": {
+      "item": "calculator:flawlessglass"
+    },
+    "C": {
+      "item": "calculator:advancedgreenhouse"
+    }
+  },
+  "result": {
+    "item": "calculator:flawlessgreenhouse",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShaped"
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EAE",
+    "DBD",
+    "FCF"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:fabricationchamber"
+    },
+    "B": {
+      "item": "calculator:atomicassembly"
+    },
+    "C": {
+      "item": "calculator:enddiamond"
+    },
+    "D": {
+      "item": "calculator:atomicmodule"
+    },
+    "E": {
+      "item": "calculator:calculatorplug"
+    },
+    "F": {
+      "tag": "sonarcore:stable_stone"
+    }
+  },
+  "result": {
+    "item": "calculator:atomicmultiplier",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

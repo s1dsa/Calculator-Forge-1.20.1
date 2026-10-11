@@ -1,0 +1,35 @@
+{
+  "type": "calculator:atomic",
+  "order": 21,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:reinforcedironingot"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:firediamond"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "calculator:reinforcedironingot"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:weatherstation",
+      "count": 4
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/AtomicCalculatorRecipes.java: Calculator.reinforcediron_ingot, Calculator.firediamond, Calculator.reinforcediron_ingot, new ItemStack(Calculator.weatherStation, 4)"
+}

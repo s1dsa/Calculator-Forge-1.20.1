@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:tanzaniteplanks"
+    }
+  },
+  "result": {
+    "item": "calculator:tanzanitestairs",
+    "count": 4
+  },
+  "_source": "CalculatorCrafting.java addShaped"
+}

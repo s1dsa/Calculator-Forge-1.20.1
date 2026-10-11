@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "calculator:material_3"
+    }
+  ],
+  "result": {
+    "item": "calculator:reinforcedironingot",
+    "count": 9
+  },
+  "_source": "CalculatorCrafting.java material enum 3"
+}

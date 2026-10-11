@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "calculator:block/converted/cropbroccoli_inventory_efb9365137b3"
+    },
+    "age=1": {
+      "model": "calculator:block/converted/cropbroccoli_inventory_efb9365137b3"
+    },
+    "age=2": {
+      "model": "calculator:block/converted/cropbroccoli_1a707dd34c37"
+    },
+    "age=3": {
+      "model": "calculator:block/converted/cropbroccoli_1a707dd34c37"
+    },
+    "age=4": {
+      "model": "calculator:block/converted/cropbroccoli_93b82d308a07"
+    },
+    "age=5": {
+      "model": "calculator:block/converted/cropbroccoli_93b82d308a07"
+    },
+    "age=6": {
+      "model": "calculator:block/converted/cropbroccoli_837d7c84d7f2"
+    },
+    "age=7": {
+      "model": "calculator:block/converted/cropbroccoli_837d7c84d7f2"
+    }
+  }
+}

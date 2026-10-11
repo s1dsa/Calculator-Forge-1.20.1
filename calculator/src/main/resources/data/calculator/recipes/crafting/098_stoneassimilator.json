@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "IPI",
+    " I "
+  ],
+  "key": {
+    "P": {
+      "item": "calculator:stoneseparator"
+    },
+    "I": {
+      "tag": "calculator:reinforced_stone"
+    },
+    "S": {
+      "item": "calculator:sickle"
+    }
+  },
+  "result": {
+    "item": "calculator:stoneassimilator",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C C",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:material_3"
+    },
+    "B": {
+      "item": "calculator:storagechamber"
+    },
+    "C": {
+      "item": "calculator:reinforcedironingot"
+    }
+  },
+  "result": {
+    "item": "calculator:fabricationchamber",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShaped"
+}

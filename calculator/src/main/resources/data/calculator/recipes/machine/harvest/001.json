@@ -1,0 +1,27 @@
+{
+  "type": "calculator:harvest",
+  "order": 1,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:diamondleaves"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:weakeneddiamond",
+      "count": 1
+    },
+    {
+      "item": "calculator:flawlessdiamond",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/TreeHarvestRecipes.java: Calculator.diamondLeaves, new ItemStack(Calculator.weakeneddiamond, 1), new ItemStack(Calculator.flawlessdiamond, 1)"
+}

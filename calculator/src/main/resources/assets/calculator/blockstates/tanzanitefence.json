@@ -1,0 +1,49 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "calculator:block/converted/tanzanitefence_e68f80f9fc9d",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/tanzanitefence_north_68b2317ef4f7",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/tanzanitefence_north_68b2317ef4f7",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/tanzanitefence_north_68b2317ef4f7",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "calculator:block/converted/tanzanitefence_north_68b2317ef4f7",
+        "y": 270,
+        "uvlock": true
+      }
+    }
+  ]
+}

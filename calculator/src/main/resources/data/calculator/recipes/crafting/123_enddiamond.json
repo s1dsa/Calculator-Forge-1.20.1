@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "calculator:material_8"
+    }
+  ],
+  "result": {
+    "item": "calculator:enddiamond",
+    "count": 9
+  },
+  "_source": "CalculatorCrafting.java material enum 8"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RR ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "R": {
+      "item": "calculator:flawlessdiamond"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "calculator:flawlessdiamondhoe",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

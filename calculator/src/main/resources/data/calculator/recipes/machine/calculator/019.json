@@ -1,0 +1,29 @@
+{
+  "type": "calculator:calculator",
+  "order": 19,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "sonarcore:reinforceddirtblock"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "sonarcore:reinforceddirtblock"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "sonarcore:reinforceddirtbrick",
+      "count": 2
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/CalculatorRecipes.java: new ItemStack(SonarCore.reinforcedDirtBrick, 2), SonarCore.reinforcedDirtBlock, SonarCore.reinforcedDirtBlock"
+}

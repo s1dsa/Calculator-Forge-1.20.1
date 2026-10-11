@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "sonarcore",
+  "result": {
+    "item": "sonarcore:reinforceddirtbrickstairs",
+    "count": 4
+  },
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "sonarcore:reinforceddirtbrick"
+    }
+  }
+}

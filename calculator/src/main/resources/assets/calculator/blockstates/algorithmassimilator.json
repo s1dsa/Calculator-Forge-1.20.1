@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/algorithmassimilator_inventory_a1d07ec3b6f3"
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/algorithmassimilator_inventory_a1d07ec3b6f3",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/algorithmassimilator_inventory_a1d07ec3b6f3",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/algorithmassimilator_inventory_a1d07ec3b6f3",
+      "y": 90
+    }
+  }
+}

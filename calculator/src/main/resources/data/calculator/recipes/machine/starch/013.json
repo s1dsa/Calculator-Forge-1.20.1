@@ -1,0 +1,18 @@
+{
+  "type": "calculator:starch",
+  "order": 13,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "tag": "calculator:leaves"
+      },
+      "count": 1
+    }
+  ],
+  "results": [],
+  "value": 2500,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/StarchExtractorRecipes.java: \"calculatorLeaves\", 2500"
+}

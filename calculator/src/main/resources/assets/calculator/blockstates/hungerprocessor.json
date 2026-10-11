@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/hungerprocessor_inventory_e77a15af8a2b",
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/hungerprocessor_inventory_e77a15af8a2b",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/hungerprocessor_inventory_e77a15af8a2b",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/hungerprocessor_inventory_e77a15af8a2b",
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

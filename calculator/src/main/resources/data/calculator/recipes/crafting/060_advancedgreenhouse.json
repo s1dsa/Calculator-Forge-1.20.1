@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BCB",
+    "CAC",
+    "BCB"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:basicgreenhouse"
+    },
+    "B": {
+      "item": "calculator:weakeneddiamond"
+    },
+    "C": {
+      "item": "calculator:largetanzanite"
+    }
+  },
+  "result": {
+    "item": "calculator:advancedgreenhouse",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShaped"
+}

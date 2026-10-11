@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "calculator:diamondlog"
+    }
+  ],
+  "result": {
+    "item": "calculator:diamondplanks",
+    "count": 4
+  },
+  "_source": "CalculatorCrafting.java addShapeless"
+}

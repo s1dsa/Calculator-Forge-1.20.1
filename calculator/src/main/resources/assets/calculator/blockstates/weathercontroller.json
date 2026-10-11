@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/weathercontroller_inventory_abd45c0231e1"
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/weathercontroller_inventory_abd45c0231e1"
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/weathercontroller_inventory_abd45c0231e1"
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/weathercontroller_inventory_abd45c0231e1"
+    }
+  }
+}

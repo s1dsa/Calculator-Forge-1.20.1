@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ADA",
+    "BCB",
+    "AEA"
+  ],
+  "key": {
+    "B": {
+      "tag": "forge:gems/amethyst"
+    },
+    "A": {
+      "item": "calculator:shardamethyst"
+    },
+    "C": {
+      "item": "minecraft:golden_apple"
+    },
+    "D": {
+      "item": "calculator:calculatorscreen"
+    },
+    "E": {
+      "item": "calculator:redstoneingot"
+    }
+  },
+  "result": {
+    "item": "calculator:hungermodule",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

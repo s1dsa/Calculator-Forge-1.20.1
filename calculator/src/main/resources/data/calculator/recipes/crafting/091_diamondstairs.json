@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:diamondplanks"
+    }
+  },
+  "result": {
+    "item": "calculator:diamondstairs",
+    "count": 4
+  },
+  "_source": "CalculatorCrafting.java addShaped"
+}

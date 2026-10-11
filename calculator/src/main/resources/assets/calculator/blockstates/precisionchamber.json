@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/precisionchamber_afb539fa7d72"
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/precisionchamber_afb539fa7d72",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/precisionchamber_afb539fa7d72",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/precisionchamber_afb539fa7d72",
+      "y": 90
+    }
+  }
+}

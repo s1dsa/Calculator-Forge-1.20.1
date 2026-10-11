@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ADA",
+    "BCB",
+    "AEA"
+  ],
+  "key": {
+    "B": {
+      "tag": "forge:gems/tanzanite"
+    },
+    "A": {
+      "item": "calculator:shardtanzanite"
+    },
+    "C": {
+      "item": "calculator:atomicbinder"
+    },
+    "D": {
+      "item": "calculator:calculatorscreen"
+    },
+    "E": {
+      "item": "calculator:flawlessdiamond"
+    }
+  },
+  "result": {
+    "item": "calculator:healthmodule",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "calculator:tanzanitelog"
+    }
+  ],
+  "result": {
+    "item": "calculator:tanzaniteplanks",
+    "count": 4
+  },
+  "_source": "CalculatorCrafting.java addShapeless"
+}

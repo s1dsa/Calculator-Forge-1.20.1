@@ -1,0 +1,27 @@
+{
+  "type": "calculator:stone",
+  "order": 10,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:amethystleaves"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:oak_leaves",
+      "count": 1
+    },
+    {
+      "item": "calculator:shardamethyst",
+      "count": 2
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/StoneSeparatorRecipes.java: Calculator.amethystLeaves, new ItemStack(Blocks.LEAVES, 1, 0), new ItemStack(Calculator.shard_amethyst, 2)"
+}

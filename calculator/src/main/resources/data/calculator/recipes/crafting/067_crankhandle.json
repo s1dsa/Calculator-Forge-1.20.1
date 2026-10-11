@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  A",
+    "AAA",
+    "A  "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "calculator:crankhandle",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

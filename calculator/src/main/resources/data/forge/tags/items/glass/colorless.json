@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "sonarcore:stableglass",
+    "sonarcore:clearstableglass",
+    "minecraft:glass"
+  ]
+}

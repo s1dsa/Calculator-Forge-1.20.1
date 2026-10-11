@@ -1,0 +1,29 @@
+{
+  "type": "calculator:calculator",
+  "order": 0,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:grenadecasing"
+      },
+      "count": 1
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:tnt"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:babygrenade",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/CalculatorRecipes.java: Calculator.baby_grenade, Calculator.grenadecasing, Blocks.TNT"
+}

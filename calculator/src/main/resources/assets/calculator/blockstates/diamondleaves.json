@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "growth=fresh": {
+      "model": "calculator:block/converted/diamondleaves_inventory_3d8b49218e4e",
+      "uvlock": true
+    },
+    "growth=growing": {
+      "model": "calculator:block/converted/diamondleaves_inventory_3d8b49218e4e",
+      "uvlock": true
+    },
+    "growth=ready": {
+      "model": "calculator:block/converted/diamondleaves_022f8547705c",
+      "uvlock": true
+    },
+    "growth=matured": {
+      "model": "calculator:block/converted/diamondleaves_022f8547705c",
+      "uvlock": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RSR",
+    "MAM",
+    "RDR"
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "S": {
+      "item": "calculator:advancedassembly"
+    },
+    "A": {
+      "item": "calculator:atomiccalculator"
+    },
+    "M": {
+      "item": "calculator:atomicmodule"
+    },
+    "R": {
+      "tag": "calculator:reinforced_stone"
+    }
+  },
+  "result": {
+    "item": "calculator:dynamiccalculator",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "sonarcore",
+  "result": {
+    "item": "sonarcore:stablestone_lightblue",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "sonarcore:stablestoneblackrimmed_lightblue"
+    }
+  ]
+}

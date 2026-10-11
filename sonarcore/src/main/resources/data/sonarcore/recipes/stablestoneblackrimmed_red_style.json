@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "sonarcore",
+  "result": {
+    "item": "sonarcore:stablestoneblackrimmed_red",
+    "count": 1
+  },
+  "ingredients": [
+    {
+      "item": "sonarcore:stablestonerimmed_red"
+    }
+  ]
+}

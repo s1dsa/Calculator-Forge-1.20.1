@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/starchextractor_inventory_295fd597ff72",
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/starchextractor_inventory_295fd597ff72",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/starchextractor_inventory_295fd597ff72",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/starchextractor_inventory_295fd597ff72",
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

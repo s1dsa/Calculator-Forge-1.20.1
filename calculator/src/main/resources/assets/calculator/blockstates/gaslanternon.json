@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/gaslanternon_1e99180932da",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/gaslanternon_1e99180932da",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/gaslanternon_1e99180932da"
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/gaslanternon_1e99180932da",
+      "y": 180
+    }
+  }
+}

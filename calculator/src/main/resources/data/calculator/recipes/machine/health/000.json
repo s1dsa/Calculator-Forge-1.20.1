@@ -1,0 +1,18 @@
+{
+  "type": "calculator:health",
+  "order": 0,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:blaze_rod"
+      },
+      "count": 1
+    }
+  ],
+  "results": [],
+  "value": 50,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/HealthProcessorRecipes.java: Items.BLAZE_ROD, 50"
+}

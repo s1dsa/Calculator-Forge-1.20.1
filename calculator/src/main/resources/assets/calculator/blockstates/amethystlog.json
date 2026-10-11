@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "calculator:block/converted/amethystlog_inventory_e78a5d4e2279",
+      "uvlock": true
+    },
+    "axis=z": {
+      "model": "calculator:block/converted/amethystlog_inventory_e78a5d4e2279",
+      "x": 90,
+      "uvlock": true
+    },
+    "axis=x": {
+      "model": "calculator:block/converted/amethystlog_inventory_e78a5d4e2279",
+      "x": 90,
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

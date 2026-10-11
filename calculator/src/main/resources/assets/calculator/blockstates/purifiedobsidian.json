@@ -1,0 +1,196 @@
+{
+  "variants": {
+    "down=false,east=false,north=false,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_inventory_e118b74bfe5e"
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_a61c1e109e9d"
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_81de5be96e10"
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_175aca93781d"
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_6aebc3126517"
+    },
+    "down=false,east=false,north=false,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_b922410d5d0f"
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_755cec40c224"
+    },
+    "down=false,east=true,north=false,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_7d2de43c6e98"
+    },
+    "down=false,east=false,north=false,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_065bbf202a57"
+    },
+    "down=true,east=true,north=false,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_be54eba7f0c0"
+    },
+    "down=true,east=false,north=false,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_8686ad1debe2"
+    },
+    "down=false,east=false,north=true,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_c3e0c17ed433"
+    },
+    "down=false,east=false,north=false,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_89082350ade7"
+    },
+    "down=true,east=false,north=true,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_9a415e1aad30"
+    },
+    "down=true,east=false,north=false,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_0d1ac70ad2a3"
+    },
+    "down=false,east=true,north=true,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_218a7ede2505"
+    },
+    "down=false,east=true,north=false,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_22b2d6fd6ab7"
+    },
+    "down=false,east=false,north=true,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_826357bfa408"
+    },
+    "down=false,east=false,north=false,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_e1f8b6e1c22e"
+    },
+    "down=true,east=false,north=false,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_a91a219e3905"
+    },
+    "down=false,east=true,north=false,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_7815d768c4f8"
+    },
+    "down=false,east=false,north=true,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_29e5e1cf4040"
+    },
+    "down=true,east=false,north=false,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_86380e9143f4"
+    },
+    "down=true,east=false,north=false,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_7f785bc40e1c"
+    },
+    "down=true,east=true,north=false,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_a6d307047ff2"
+    },
+    "down=true,east=false,north=true,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_8637a6ae5fec"
+    },
+    "down=false,east=false,north=true,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_f36b04ae875b"
+    },
+    "down=false,east=true,north=true,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_3a4896e0598f"
+    },
+    "down=false,east=true,north=false,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_806e3de07c50"
+    },
+    "down=false,east=true,north=false,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_873783ca966e"
+    },
+    "down=true,east=true,north=false,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_4c07e9c05538"
+    },
+    "down=false,east=true,north=true,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_3931e29e97f7"
+    },
+    "down=false,east=false,north=true,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_92809079d53f"
+    },
+    "down=true,east=false,north=true,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_645a99db44a0"
+    },
+    "down=false,east=true,north=false,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_bd39538f15ef"
+    },
+    "down=false,east=false,north=false,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_f8dda78b6ed3"
+    },
+    "down=false,east=true,north=true,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_bcdc6c0a85de"
+    },
+    "down=true,east=true,north=true,south=false,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_e9fb261e3bee"
+    },
+    "down=true,east=true,north=false,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_29d5dab65d96"
+    },
+    "down=true,east=false,north=false,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_310791fccbf0"
+    },
+    "down=true,east=false,north=true,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_54d4994b717a"
+    },
+    "down=false,east=false,north=true,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_1d3d426b04b6"
+    },
+    "down=true,east=true,north=false,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_e6dc405e23b6"
+    },
+    "down=false,east=true,north=true,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_b188e8c07b33"
+    },
+    "down=true,east=false,north=true,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_193ca3f3c7f5"
+    },
+    "down=true,east=false,north=true,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_d8c1245fe67e"
+    },
+    "down=true,east=false,north=true,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_ed1a6eefdd9f"
+    },
+    "down=false,east=false,north=true,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_7b0c19016726"
+    },
+    "down=true,east=false,north=false,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_2f26a8ccafa2"
+    },
+    "down=true,east=true,north=true,south=false,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_e5fccffee903"
+    },
+    "down=true,east=true,north=false,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_9c08ff0527a2"
+    },
+    "down=false,east=true,north=true,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_2445050e8ef3"
+    },
+    "down=true,east=true,north=true,south=true,up=false,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_78bf290ee1c8"
+    },
+    "down=false,east=true,north=false,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_28fc0d73a977"
+    },
+    "down=true,east=true,north=false,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_51caf80d9898"
+    },
+    "down=false,east=true,north=true,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_59c0d3e5bd0b"
+    },
+    "down=true,east=true,north=true,south=false,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_3919df396b14"
+    },
+    "down=true,east=true,north=true,south=true,up=false,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_65e1f12bd6cc"
+    },
+    "down=true,east=true,north=false,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_cbf74c7d2f5c"
+    },
+    "down=true,east=false,north=true,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_31596bfca2e8"
+    },
+    "down=true,east=true,north=true,south=true,up=true,west=false": {
+      "model": "calculator:block/converted/purifiedobsidian_9d1c13c5ece8"
+    },
+    "down=true,east=true,north=true,south=false,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_0ce1bcbb0c30"
+    },
+    "down=false,east=true,north=true,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_3657543afe3f"
+    },
+    "down=true,east=true,north=true,south=true,up=true,west=true": {
+      "model": "calculator:block/converted/purifiedobsidian_inventory_e118b74bfe5e"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "calculator:starch",
+  "order": 10,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "minecraft:melon_seeds"
+      },
+      "count": 1
+    }
+  ],
+  "results": [],
+  "value": 800,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/StarchExtractorRecipes.java: Items.MELON_SEEDS, 800"
+}

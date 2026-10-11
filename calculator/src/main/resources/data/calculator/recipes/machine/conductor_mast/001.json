@@ -1,0 +1,23 @@
+{
+  "type": "calculator:conductor_mast",
+  "order": 1,
+  "shapeless": true,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:calculator"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:scientificcalculator",
+      "count": 1
+    }
+  ],
+  "value": 2000,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/ConductorMastRecipes.java: Calculator.itemCalculator, new ItemStack(Calculator.itemScientificCalculator), 2000"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RR ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "R": {
+      "item": "calculator:reinforcedironingot"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "calculator:reinforcedironhoe",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

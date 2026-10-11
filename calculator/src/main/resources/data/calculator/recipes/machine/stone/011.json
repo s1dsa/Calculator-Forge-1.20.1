@@ -1,0 +1,27 @@
+{
+  "type": "calculator:stone",
+  "order": 11,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:amethystlog"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:oak_log",
+      "count": 1
+    },
+    {
+      "item": "calculator:smallamethyst",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/StoneSeparatorRecipes.java: Calculator.amethystLog, new ItemStack(Blocks.LOG, 1, 0), new ItemStack(Calculator.small_amethyst, 1)"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "key": {
+    "B": {
+      "item": "calculator:powercube"
+    },
+    "A": {
+      "tag": "calculator:reinforced_stone"
+    },
+    "C": {
+      "item": "calculator:reinforcedironingot"
+    }
+  },
+  "result": {
+    "item": "calculator:stoneseparator",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShapedOre"
+}

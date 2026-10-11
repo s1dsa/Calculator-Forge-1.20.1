@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "calculator:block/converted/reinforcedfurnace_inventory_355d1f1350b3",
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "calculator:block/converted/reinforcedfurnace_inventory_355d1f1350b3",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "calculator:block/converted/reinforcedfurnace_inventory_355d1f1350b3",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "calculator:block/converted/reinforcedfurnace_inventory_355d1f1350b3",
+      "y": 90,
+      "uvlock": true
+    }
+  }
+}

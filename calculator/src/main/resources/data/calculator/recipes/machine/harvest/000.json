@@ -1,0 +1,27 @@
+{
+  "type": "calculator:harvest",
+  "order": 0,
+  "shapeless": false,
+  "ingredients": [
+    {
+      "ingredient": {
+        "item": "calculator:pearleaves"
+      },
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "item": "calculator:pear",
+      "count": 1
+    },
+    {
+      "item": "calculator:rottenpear",
+      "count": 1
+    }
+  ],
+  "value": 0,
+  "energy": 0,
+  "process_time": 0,
+  "_source": "common/recipes/TreeHarvestRecipes.java: Calculator.pearLeaves, new ItemStack(Calculator.pear, 1), new ItemStack(Calculator.rotten_pear, 1)"
+}

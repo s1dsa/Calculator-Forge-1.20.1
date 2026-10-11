@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "calculator:block/converted/cropprunae_inventory_3d3c17edf23c"
+    },
+    "age=1": {
+      "model": "calculator:block/converted/cropprunae_inventory_3d3c17edf23c"
+    },
+    "age=2": {
+      "model": "calculator:block/converted/cropprunae_47d9f6d59243"
+    },
+    "age=3": {
+      "model": "calculator:block/converted/cropprunae_47d9f6d59243"
+    },
+    "age=4": {
+      "model": "calculator:block/converted/cropprunae_f78e63f0cf6d"
+    },
+    "age=5": {
+      "model": "calculator:block/converted/cropprunae_f78e63f0cf6d"
+    },
+    "age=6": {
+      "model": "calculator:block/converted/cropprunae_4b4b2c3c8a1d"
+    },
+    "age=7": {
+      "model": "calculator:block/converted/cropprunae_4b4b2c3c8a1d"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "sonarcore",
+  "result": {
+    "item": "sonarcore:reinforcedstonebrick",
+    "count": 2
+  },
+  "ingredients": [
+    {
+      "item": "sonarcore:reinforcedstoneblock"
+    },
+    {
+      "item": "sonarcore:reinforcedstoneblock"
+    }
+  ]
+}

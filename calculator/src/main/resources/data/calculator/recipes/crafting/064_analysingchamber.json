@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "calculator:material_3"
+    },
+    "B": {
+      "item": "calculator:weakeneddiamond"
+    },
+    "C": {
+      "item": "calculator:advancedassembly"
+    }
+  },
+  "result": {
+    "item": "calculator:analysingchamber",
+    "count": 1
+  },
+  "_source": "CalculatorCrafting.java addShaped"
+}

@@ -38,7 +38,23 @@ public class MachineMenu extends AbstractContainerMenu {
     private int playerStart;
     private final int inventorySlots;
     private final int[] synced = new int[VALUES.length];
-    private static final String[] VALUES = {"energy", "capacity", "progress", "processTime", "houseState", "carbon", "houseSize", "plantsGrown", "plantsHarvested", "burnTime", "maxBurnTime", "gasAdd", "itemLevel", "points", "size", "stability", "currentGen", "weatherType", "paused", "weatherOn", "whitelist", "exact", "fabricating", "side0", "side1", "side2", "side3", "side4", "side5"};
+    private static final String[] VALUES = {"energy", "capacity", "progress", "processTime", "houseState", "carbon", "houseSize", "plantsGrown", "plantsHarvested", "burnTime", "maxBurnTime", "gasAdd", "itemLevel", "points", "size", "stability", "currentGen", "weatherType", "paused", "weatherOn", "whitelist", "exact", "fabricating", "side0", "side1", "side2", "side3", "side4", "side5",
+            // Conductor Mast wait/status branch; appended so the existing indices stay stable.
+            "lightningTimer", "lightningDelay", "lightningRandom"};
+
+    /**
+     * One unsigned 16-bit half of a full-width menu value. Vanilla's container-data packets carry
+     * signed shorts, so 32-bit values are split instead of truncated ({@code 1800} must not become
+     * {@code 1800 - 65536}); {@link #joinDataHalves(int, int)} restores the signed int.
+     */
+    public static int dataHalf(int value, int half) {
+        return value >>> (half * 16) & 65535;
+    }
+
+    /** Recombines the two halves written by the vanilla data-slot receiver into the original int. */
+    public static int joinDataHalves(int low, int high) {
+        return (low & 65535) | (high & 65535) << 16;
+    }
 
     public MachineMenu(int id, Inventory inventory, FriendlyByteBuf buf) {
         this(id, inventory, resolve(inventory, buf));
@@ -103,8 +119,12 @@ public class MachineMenu extends AbstractContainerMenu {
         // Container data packets carry signed shorts: split each full-width value into two halves.
         addDataSlots(new ContainerData() {
             public int getCount() { return VALUES.length * 2; }
-            public int get(int index) { return value(index / 2) >>> (index % 2 * 16) & 65535; }
-            public void set(int index, int value) { int at = index / 2, shift = index % 2 * 16; synced[at] = synced[at] & ~(65535 << shift) | (value & 65535) << shift; }
+            public int get(int index) { return dataHalf(value(index / 2), index % 2); }
+            public void set(int index, int value) {
+                int at = index / 2;
+                synced[at] = index % 2 == 0 ? joinDataHalves(value, dataHalf(synced[at], 1))
+                        : joinDataHalves(dataHalf(synced[at], 0), value);
+            }
         });
     }
     private int value(int index) {

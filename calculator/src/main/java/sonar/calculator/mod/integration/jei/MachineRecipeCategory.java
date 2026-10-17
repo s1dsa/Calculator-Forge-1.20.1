@@ -6,7 +6,8 @@ import java.util.Locale;
 import mezz.jei.api.gui.builder.IRecipeLayoutBuilder;
 import mezz.jei.api.gui.builder.IRecipeSlotBuilder;
 import mezz.jei.api.gui.drawable.IDrawable;
-import mezz.jei.api.gui.widgets.IRecipeExtrasBuilder;
+import mezz.jei.api.gui.drawable.IDrawableAnimated;
+import mezz.jei.api.gui.drawable.IDrawableStatic;
 import mezz.jei.api.helpers.IGuiHelper;
 import mezz.jei.api.recipe.IFocusGroup;
 import mezz.jei.api.recipe.RecipeIngredientRole;
@@ -20,26 +21,38 @@ import sonar.calculator.mod.recipe.MachineRecipe;
 /**
  * One JEI category for a {@link MachineRecipe} family.
  *
- * <p>Inputs are shown with their required count and, when the recipe demands it, the exact NBT the
- * machine validates. Outputs are shown with the recipe's own preview stack (count and NBT
- * preserved) plus a note when the legacy random roll only produces them with a probability, or
- * picks one of several circuit variants. Numeric families additionally show their value and, where
- * applicable, the analysing chamber's circuit slot / required value.
+ * <p>The category background is a crop of the real machine / portable-calculator GUI artwork, so
+ * the slot row, operator glyphs and progress arrow match the in-game screen. The crop deliberately
+ * excludes the machine title, player inventory and energy read-out; JEI supplies the category title
+ * itself and no fake energy value is drawn. Inputs are shown with their required count and exact
+ * NBT, outputs keep their preview count/NBT, and probability or variant notes are added when the
+ * legacy recipe rolls them. Numeric families additionally show their value and analysing keys.</p>
  *
  * <p>The category is fully data-driven: every slot corresponds to a real ingredient or result of
- * the loaded recipe, so no category can be registered as an empty shell.
+ * the loaded recipe, so no category can be registered as an empty shell.</p>
  */
 public final class MachineRecipeCategory extends AbstractRecipeCategory<MachineRecipe> {
     private final JeiLayout layout;
     private final String machineType;
     private final IDrawable background;
+    private final IDrawableAnimated arrow;
 
     public MachineRecipeCategory(RecipeType<MachineRecipe> type, Component title, IDrawable icon,
                                  IGuiHelper guiHelper, JeiLayout layout, String machineType) {
-        super(type, title, icon, layout.width(), layout.height() + 32);
+        super(type, title, icon, layout.width(), layout.categoryHeight());
         this.layout = layout;
         this.machineType = machineType;
-        this.background = guiHelper.createBlankDrawable(layout.width(), layout.height() + 32);
+        this.background = guiHelper.drawableBuilder(layout.texture(), layout.u(), layout.v(),
+                layout.width(), layout.height()).setTextureSize(256, 256).build();
+        JeiLayout.Arrow arrowInfo = layout.arrow();
+        if (arrowInfo == null) {
+            this.arrow = null;
+        } else {
+            IDrawableStatic staticArrow = guiHelper.drawableBuilder(arrowInfo.texture(), arrowInfo.u(), arrowInfo.v(),
+                    arrowInfo.width(), arrowInfo.height()).setTextureSize(256, 256).build();
+            this.arrow = guiHelper.createAnimatedDrawable(staticArrow, arrowInfo.ticks(),
+                    IDrawableAnimated.StartDirection.LEFT, false);
+        }
     }
 
     @Override
@@ -82,18 +95,13 @@ public final class MachineRecipeCategory extends AbstractRecipeCategory<MachineR
     @Override
     public void draw(MachineRecipe recipe, mezz.jei.api.gui.ingredient.IRecipeSlotsView slots,
                      net.minecraft.client.gui.GuiGraphics graphics, double mouseX, double mouseY) {
+        if (arrow != null) arrow.draw(graphics, layout.arrow().x(), layout.arrow().y());
         var font = net.minecraft.client.Minecraft.getInstance().font;
         List<Component> notes = valueNotes(recipe, RecipeInfo.of(recipe));
         for (int i = 0; i < notes.size(); i++) {
             graphics.drawString(font, font.plainSubstrByWidth(notes.get(i).getString(), layout.width()),
                     0, layout.height() + 2 + i * 10, 0x404040, false);
         }
-    }
-
-    @Override
-    public void createRecipeExtras(IRecipeExtrasBuilder builder, MachineRecipe recipe, IFocusGroup focuses) {
-        boolean arrow = layout.arrowX() >= 0 && layout.inputX().length > 0 && layout.outputX().length > 0;
-        if (arrow) builder.addAnimatedRecipeArrow(200).setPosition(layout.arrowX(), layout.arrowY());
     }
 
     private List<Component> inputNotes(MachineRecipe.Input input) {

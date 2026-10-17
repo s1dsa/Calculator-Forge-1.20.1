@@ -1,6 +1,6 @@
 # Known Issues and Limitations
 
-Port version: `1.0.3-round4` — an **in-development, unofficial** port.
+Port version: `1.0.4-beta.1` — an **in-development, unofficial** port.
 
 This document states the current limitations honestly. It is **not** a claim of
 byte-for-byte or behavior-for-behavior parity with the original 1.12.2 mods, and it
@@ -38,6 +38,17 @@ in-game.
 - **Vertical orientation of lamps** differs in implementation from upstream.
 - GUI/model acceptance was performed as a load/visual smoke check, **not** as a full
   pixel-level GUI and renderer acceptance pass over every machine and tool.
+- The `1.0.4-beta.1` Conductor Mast status line and the JEI machine-artwork pages were
+  verified by source/asset audits, static crop previews and dedicated GameTests, **not**
+  by a real Minecraft client screenshot in this environment. The energy bar / slot
+  layout is unchanged, but a final in-game visual check at the player's GUI scale is
+  still required. In a real client, check the mast at delay >= 600 ticks with timer
+  below 500 ticks (including message index 8), then check the countdown branch at
+  timer >= 500 ticks. Open all 19 JEI categories and inspect operators, counts, NBT,
+  probability/value tooltips and the absence of Inventory captions at the player's GUI scale.
+- Every machine screen now omits the vanilla "Inventory" caption by not drawing it at
+  all (not by blanking a translation or moving text off-screen); player slots, machine
+  titles, status text and energy read-outs are unchanged.
 
 ## World, saves and migration
 
@@ -72,6 +83,10 @@ upload:
 - Earlier suites reported **21** required GameTests (Calculator integration), **12**
   (Sonar Core boundary), and **29** (workstation/module security and transaction).
 - Unit-level tests reported **75 passing**.
+- The `1.0.4-beta.1` dual-mod regression ran **78/78 required GameTests passing**,
+  including three new Conductor Mast tests (status branches/boundaries, 32-bit menu
+  state round-trip, and server-side delay/message/timer roll). This is automated
+  evidence, not a client-visual pass.
 - The resource conversion check verified structural/byte fidelity of converted
   resources against the upstream assets; that is structural evidence and **not** proof
   of runtime rendering or optional integration behavior.

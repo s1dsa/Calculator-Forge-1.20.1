@@ -274,7 +274,10 @@ public final class MachineScreen extends AbstractContainerScreen<MachineMenu> {
             Component title = Component.literal(font.plainSubstrByWidth(this.title.getString(), 162));
             centredLabel(g, title, id.equals("calculatorlocator") || id.equals("dynamiccalculator") ? -12 : 6, 0x404040);
         }
-        g.drawString(font, playerInventoryTitle, 8, inventoryLabelY, 0x404040, false);
+        // Machine UIs deliberately omit the vanilla "Inventory" label: on several legacy layouts it
+        // overlaps the energy bar / slot frame (e.g. the Conductor Mast's lower-left energy bar).
+        // The player slots stay in place; only this caption is not drawn.
+        if (id.equals("conductormast")) conductorStatus(g);
         // #2: white, shadow-less, centred inside the energy bar (was grey at y=74, colliding with the label).
         int[] energyRect = energyBar();
         if (menu.getEnergyCapacity() > 0 && energyRect != null) {
@@ -285,6 +288,28 @@ public final class MachineScreen extends AbstractContainerScreen<MachineMenu> {
         if (id.equals("calculatorlocator")) locatorStatus(g);
         if (id.equals("hungerprocessor") || id.equals("healthprocessor"))
             centredLabel(g, Component.translatable("gui.calculator.points").append(": " + menu.getStateValue("points")), 60, 0x404040);
+    }
+
+    /**
+     * The original Conductor Mast wait line between the slots and the energy bar
+     * (upstream {@code GuiConductorMast}, y=46): either a dried wait message while the delay is
+     * still in its first 500 ticks, or the remaining whole seconds. The values shown are the
+     * server-synchronised machine state, never a client-side guess.
+     */
+    private void conductorStatus(GuiGraphics g) {
+        int delay = menu.getStateValue("lightningDelay");
+        int timer = menu.getStateValue("lightningTimer");
+        int random = menu.getStateValue("lightningRandom");
+        String message = sonar.calculator.mod.machine.ConductorStatus.messageKey(delay, timer, random);
+        Component status;
+        if (message != null) {
+            status = Component.translatable("conductor.wait").append(": ").append(Component.translatable(message));
+        } else {
+            status = Component.translatable("conductor.wait").append(": ")
+                    .append(Component.literal(sonar.calculator.mod.machine.ConductorStatus.remainingSeconds(delay, timer) + " "))
+                    .append(Component.translatable("lightning.seconds"));
+        }
+        centredLabel(g, status, 46, 0x404040);
     }
 
     /** The four original locator status lines (upstream {@code GuiCalculatorLocator}). */

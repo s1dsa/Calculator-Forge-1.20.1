@@ -50,6 +50,10 @@ public final class CalculatorJeiPlugin implements IModPlugin {
     public void registerCategories(IRecipeCategoryRegistration registration) {
         IGuiHelper guiHelper = registration.getJeiHelpers().getGuiHelper();
         for (Family family : enabledFamilies()) {
+            if (!family.layout().isValid()) {
+                throw new IllegalStateException("JEI layout for '" + family.type()
+                        + "' leaves its machine-artwork crop: " + family.layout());
+            }
             RecipeType<MachineRecipe> type = JeiRecipeTypes.BY_ID.get(family.type());
             registration.addRecipeCategories(new MachineRecipeCategory(type, JeiText.category(family.type(), family.title()),
                     guiHelper.createDrawableItemStack(icon(family)), guiHelper, family.layout(), family.type()));
@@ -122,44 +126,58 @@ public final class CalculatorJeiPlugin implements IModPlugin {
     }
 
     private static List<Family> families() {
+        // Every layout is cropped from the matching machine / portable-calculator GUI artwork:
+        // legacy 256px GUI coordinates, slot row and progress arrow only (no title, inventory or
+        // energy text). See JeiLayout for the crops and MachineScreen for the live screens.
         return List.of(
-                new Family("processing", "Processing Chamber", "processingchamber", null, JeiLayout.single(null),
+                new Family("processing", "Processing Chamber", "processingchamber", null,
+                        JeiLayout.single("restorationchamber.png", null),
                         List.of("processingchamber"), List.of()),
-                new Family("restoration", "Restoration Chamber", "restorationchamber", null, JeiLayout.single(null),
+                new Family("restoration", "Restoration Chamber", "restorationchamber", null,
+                        JeiLayout.single("restorationchamber.png", null),
                         List.of("restorationchamber"), List.of()),
-                new Family("reassembly", "Reassembly Chamber", "reassemblychamber", null, JeiLayout.single(null),
+                new Family("reassembly", "Reassembly Chamber", "reassemblychamber", null,
+                        JeiLayout.single("restorationchamber.png", null),
                         List.of("reassemblychamber"), List.of()),
-                new Family("extraction", "Extraction Chamber", "extractionchamber", null, JeiLayout.dual(),
+                new Family("extraction", "Extraction Chamber", "extractionchamber", null,
+                        JeiLayout.dual("extractionchamber.png"),
                         List.of("extractionchamber"), List.of()),
-                new Family("precision", "Precision Chamber", "precisionchamber", null, JeiLayout.dual(),
+                new Family("precision", "Precision Chamber", "precisionchamber", null,
+                        JeiLayout.dual("extractionchamber.png"),
                         List.of("precisionchamber"), List.of()),
-                new Family("stone", "Stone Separator", "stoneseparator", null, JeiLayout.dual(),
+                new Family("stone", "Stone Separator", "stoneseparator", null,
+                        JeiLayout.dual("stoneseperator.png"),
                         List.of("stoneseparator"), List.of()),
-                new Family("algorithm", "Algorithm Separator", "algorithmseparator", null, JeiLayout.dual(),
+                new Family("algorithm", "Algorithm Separator", "algorithmseparator", null,
+                        JeiLayout.dual("stoneseperator.png"),
                         List.of("algorithmseparator"), List.of()),
-                new Family("calculator", "Calculator", null, "calculator", JeiLayout.calculator(),
+                new Family("calculator", "Calculator", null, "calculator", JeiLayout.calculator("calculator.png"),
                         List.of("dynamiccalculator", "dockingstation"), List.of("calculator", "flawlesscalculator")),
-                new Family("scientific", "Scientific Calculator", null, "scientificcalculator", JeiLayout.calculator(),
+                new Family("scientific", "Scientific Calculator", null, "scientificcalculator",
+                        JeiLayout.calculator("scientificcalculator.png"),
                         List.of("dynamiccalculator", "dockingstation"), List.of("scientificcalculator", "flawlesscalculator")),
                 new Family("atomic", "Atomic Calculator", "atomiccalculator", null, JeiLayout.atomic(),
                         List.of("atomiccalculator", "dynamiccalculator", "dockingstation"), List.of()),
                 new Family("flawless", "Flawless Calculator", null, "flawlesscalculator", JeiLayout.flawless(),
                         List.of("dockingstation"), List.of("flawlesscalculator")),
-                new Family("health", "Health Processor", "healthprocessor", null, JeiLayout.value("Health Points"),
+                new Family("health", "Health Processor", "healthprocessor", null, JeiLayout.health(),
                         List.of("healthprocessor"), List.of()),
-                new Family("conductor_mast", "Conductor Mast", "conductormast", null, JeiLayout.single("RF"),
+                new Family("conductor_mast", "Conductor Mast", "conductormast", null, JeiLayout.conductor(),
                         List.of("conductormast"), List.of()),
                 new Family("fabrication", "Fabrication Chamber", "fabricationchamber", null, JeiLayout.fabrication(),
                         List.of("fabricationchamber"), List.of()),
-                new Family("harvest", "Sickle Harvesting", null, "sickle", JeiLayout.dual(),
+                new Family("harvest", "Sickle Harvesting", null, "sickle", JeiLayout.harvest(),
                         List.of(), List.of("sickle")),
-                new Family("analysing", "Analysing Chamber", "analysingchamber", null, JeiLayout.outputOnly(null),
+                new Family("analysing", "Analysing Chamber", "analysingchamber", null, JeiLayout.analysing(),
                         List.of("analysingchamber"), List.of()),
-                new Family("starch", "Starch Extractor", "starchextractor", null, JeiLayout.value("RF"),
+                new Family("starch", "Starch Extractor", "starchextractor", null,
+                        JeiLayout.extractor("starchgenerator.png", "RF"),
                         List.of("starchextractor"), List.of()),
-                new Family("redstone", "Redstone Extractor", "redstoneextractor", null, JeiLayout.value("RF"),
+                new Family("redstone", "Redstone Extractor", "redstoneextractor", null,
+                        JeiLayout.extractor("redstonegenerator.png", "RF"),
                         List.of("redstoneextractor"), List.of()),
-                new Family("glowstone", "Glowstone Extractor", "glowstoneextractor", null, JeiLayout.value("RF"),
+                new Family("glowstone", "Glowstone Extractor", "glowstoneextractor", null,
+                        JeiLayout.extractor("glowstonegenerator.png", "RF"),
                         List.of("glowstoneextractor"), List.of()));
     }
 

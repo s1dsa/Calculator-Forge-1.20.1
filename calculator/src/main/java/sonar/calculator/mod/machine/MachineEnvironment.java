@@ -224,6 +224,9 @@ final class MachineEnvironment {
         if (delay == 0 && m.energy.getEnergyStored() < m.energy.getMaxEnergyStored()) {
             int transmitters = nearby(m, "transmitter", 20).size();
             delay = m.getLevel().random.nextInt(300) + (transmitters > 9 ? 250 : 1500 - 135 * transmitters);
+            // Upstream rolls the wait-message index together with each new delay; the GUI only
+            // shows it during the first 500 ticks of a delay of at least 600 ticks.
+            m.state.putInt("lightningRandom", m.getLevel().random.nextInt(ConductorStatus.MESSAGE_COUNT));
             m.state.putInt("strikes", transmitters > 9 ? transmitters / 4 : 1);
         }
         if (delay > 0 && ++timer >= delay) {

@@ -19,7 +19,7 @@ Maintainer of this port: **崇宫澪酱** (GitHub [@s1dsa](https://github.com/s1
 | Java | 17 (Gradle toolchain) |
 | Gradle wrapper | 8.14.3 (BIN distribution) |
 | Mappings | `official` / `1.20.1` |
-| Port version | `1.0.3-round4` |
+| Port version | `1.0.4-beta.1` |
 
 ## Modules
 
@@ -57,6 +57,15 @@ JEI is an **optional** dependency and is **never bundled** into the distributed 
   verify the "runs without JEI" case.
 - To pin a different JEI version for a re-verification, pass `-Pjei_version=<version>`
   (default `15.62.0.219`).
+
+Every recipe category reuses the artwork of its real machine or portable calculator:
+the category background is cropped from the corresponding GUI texture (slot row,
+legacy operator glyphs such as `+ ÷ + =`, and the animated progress arrow). The crop
+starts below the machine title and stops above the energy bar / player inventory, so
+JEI's own title is the only heading and no fake energy value or inventory caption is
+drawn. Input/output counts, exact NBT, probability/variant notes, numeric values and
+catalysts are still shown. The flawless-calculator page therefore reproduces the
+original JEI layout: four inputs with `+ ÷ + =` and one output in a single row.
 
 ## No bundled third-party binaries
 
@@ -117,7 +126,7 @@ third-party license notes.
 
 ## Status and known limitations
 
-This is a development port (`1.0.3-round4`), **not** a claim of byte-for-byte or
+This is a beta development port (`1.0.4-beta.1`), **not** a claim of byte-for-byte or
 behavior-for-behavior parity with the original. Client-side rendering and GUI
 layouts, some animation interpolation, and a number of legacy integrations differ
 from upstream, and **existing 1.12.2 worlds are not validated for direct migration**.
@@ -149,7 +158,7 @@ https://github.com/s1dsa/Calculator-Forge-1.20.1/issues
 | Java | 17（Gradle 工具链） |
 | Gradle wrapper | 8.14.3（BIN 发行版） |
 | 映射 | `official` / `1.20.1` |
-| 移植版本 | `1.0.3-round4` |
+| 移植版本 | `1.0.4-beta.1` |
 
 ## 模块
 
@@ -183,6 +192,13 @@ JEI 是**可选**依赖，**绝不会**被打包进发布的 jar。
   从开发运行环境中移除。这正是用于验证“无 JEI 亦可运行”的配置。
 - 如需固定其他 JEI 版本进行重新验证，传 `-Pjei_version=<version>`（默认
   `15.62.0.219`）。
+
+每个配方类别都直接采用对应机器/便携计算器的界面美术：类别背景从实际 GUI 贴图裁切，
+包含槽位行、原版运算符（如 `+ ÷ + =`）和动画进度箭头；裁切区域从机器标题下方开始、
+在能量条/玩家物品栏上方结束，因此页面顶部只保留 JEI 自带标题，不重复绘制机器标题、
+虚假能量值或“物品栏”文字。输入/输出数量、精确 NBT、概率/变体说明、数值型说明与
+catalyst 均保留。完美计算器页面因此复现原版 JEI 布局：四个输入槽与 `+ ÷ + =`
+运算符及一个输出槽横排显示。
 
 ## 不打包任何第三方二进制
 
@@ -238,7 +254,7 @@ gradlew.bat runServer
 
 ## 状态与已知限制
 
-这是一个开发版本（`1.0.3-round4`），**并非**与原版逐字节或逐行为一致的声明。客户端
+这是一个 Beta 开发版本（`1.0.4-beta.1`），**并非**与原版逐字节或逐行为一致的声明。客户端
 渲染与 GUI 布局、部分动画插值以及若干旧版集成均与上游存在差异，且**现有 1.12.2 世界
 未经验证，不支持直接迁移**。在真实世界中启用前请阅读 [`KNOWN_ISSUES.md`](KNOWN_ISSUES.md)。
 

@@ -90,6 +90,80 @@ def main():
     if offenders:
         failures.append("integration package referenced outside itself: %s" % offenders)
     print("common/server files referencing integration.jei: %d" % len(offenders))
+
+    # --- Machine-artwork layouts (this update): every category must crop real GUI artwork. ------
+    layout_src = read(os.path.join(CALC, "src/main/java/sonar/calculator/mod/integration/jei/JeiLayout.java"))
+    category_src = read(os.path.join(CALC, "src/main/java/sonar/calculator/mod/integration/jei/MachineRecipeCategory.java"))
+    gui_dir = os.path.join(CALC, "src/main/resources/assets/calculator/textures/gui")
+    family_blocks = plugin.split("new Family(")[1:]
+    if len(family_blocks) != len(types):
+        failures.append("JEI family count %d does not match MACHINE_TYPES %d" % (len(family_blocks), len(types)))
+    for block in family_blocks:
+        match = re.match(r'\s*"([^"]+)"', block)
+        family = match.group(1) if match else "?"
+        lists = re.findall(r'List\.of\(([^)]*)\)', block)
+        if len(lists) < 2 or not any(part.strip() for part in lists[:2]):
+            failures.append("family %s has no non-empty catalyst list" % family)
+        layout = re.search(r'JeiLayout\.(\w+)\(([^)]*)\)', block)
+        if not layout:
+            failures.append("family %s does not use a machine-artwork JeiLayout" % family)
+        elif layout.group(1) in ("value", "outputOnly"):
+            failures.append("family %s still uses the old blank/value layout factory" % family)
+    for name in set(re.findall(r'"([a-zA-Z0-9_]+\.png)"', plugin + layout_src)):
+        if not os.path.exists(os.path.join(gui_dir, name)):
+            failures.append("JEI layout references missing GUI texture: %s" % name)
+    if "setTextureSize(256, 256)" not in category_src:
+        failures.append("JEI background/arrow drawables must sample legacy 256px GUI coordinates")
+    if "createBlankDrawable" in category_src:
+        failures.append("JEI category still uses a blank background instead of machine artwork")
+    if ".isValid()" not in plugin or "x + SLOT <= width" not in layout_src \
+            or "y + SLOT <= height" not in layout_src:
+        failures.append("JEI layout bounds are not validated")
+    if "playerInventoryTitle" in category_src or "formatStorage" in category_src:
+        failures.append("JEI category draws a machine title/player inventory/energy value")
+    for token in ("display.setCount(input.count())", "display.setTag(input.exactNbt())",
+                  "slot.addItemStack(outputs.get(i))", "chanceBound(index)", "choiceCount(index)"):
+        if token not in category_src:
+            failures.append("JEI recipe detail lost: %s" % token)
+
+    # --- Category/tooltip language keys must exist in every shipped language. ------------------
+    lang_dir = os.path.join(CALC, "src/main/resources/assets/calculator/lang")
+    lang_sets = {}
+    for name in ("en_us.json", "zh_cn.json", "ru_ru.json", "uk_ua.json"):
+        data = json.loads(read(os.path.join(lang_dir, name)))
+        lang_sets[name] = {key for key in data if key.startswith("jei.calculator.")}
+    baseline = lang_sets["en_us.json"]
+    for name, keys in lang_sets.items():
+        if keys != baseline:
+            failures.append("JEI language keys differ in %s: missing=%s extra=%s"
+                            % (name, sorted(baseline - keys), sorted(keys - baseline)))
+        for machine_type in types:
+            if "jei.calculator.category." + machine_type not in keys:
+                failures.append("missing JEI category title key %s in %s" % (machine_type, name))
+
+    # --- Machine UI: no Inventory caption; conductor status restored from synced state. --------
+    screen_src = read(os.path.join(CALC, "src/main/java/sonar/calculator/mod/client/screen/MachineScreen.java"))
+    if "playerInventoryTitle" in screen_src:
+        failures.append("MachineScreen still draws the Inventory caption")
+    for token in ('conductorStatus(g)', 'conductor.wait', 'centredLabel(g, status, 46, 0x404040)',
+                  'getStateValue("lightningDelay")', 'getStateValue("lightningTimer")',
+                  'getStateValue("lightningRandom")'):
+        if token not in screen_src:
+            failures.append("conductor status rendering lost: %s" % token)
+    status_src = read(os.path.join(CALC, "src/main/java/sonar/calculator/mod/machine/ConductorStatus.java"))
+    for token in ("delay < MESSAGE_MIN_DELAY || timer >= MESSAGE_MAX_TIMER",
+                  "random < 0 || random >= MESSAGE_COUNT",
+                  '"conductor.msg" + random'):
+        if token not in status_src:
+            failures.append("conductor status branch lost: %s" % token)
+    menu_src = read(os.path.join(CALC, "src/main/java/sonar/calculator/mod/machine/MachineMenu.java"))
+    for token in ('"lightningTimer", "lightningDelay", "lightningRandom"', "dataHalf(", "joinDataHalves("):
+        if token not in menu_src:
+            failures.append("conductor 32-bit menu sync lost: %s" % token)
+    env_src = read(os.path.join(CALC, "src/main/java/sonar/calculator/mod/machine/MachineEnvironment.java"))
+    if 'state.putInt("lightningRandom"' not in env_src:
+        failures.append("conductor wait-message index is never rolled")
+
     print("\n" + ("FAILURES:\n  " + "\n  ".join(failures) if failures else "ALL CHECKS PASSED"))
     return 1 if failures else 0
 
